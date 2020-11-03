@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btFormidableResults">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="params" type="X2" />
+		<field name="search" type="X2" />
+		<field name="columns" type="X2" />
+	</table>
+</schema>

@@ -1,0 +1,91 @@
+<?php
+
+/**
+ 
+ */
+
+// security - hide paths
+if (!defined('ADODB_DIR')) die();
+
+class ADODB2_access extends ADODB_DataDict {
+
+    public $databaseType = 'access';
+    public $seqField = false;
+
+
+    public function ActualType($meta)
+    {
+        switch($meta) {
+        case 'C': return 'TEXT';
+        case 'XL':
+        case 'X': return 'MEMO';
+
+        case 'C2': return 'TEXT'; // up to 32K
+        case 'X2': return 'MEMO';
+
+        case 'B': return 'BINARY';
+
+        case 'TS':
+        case 'D': return 'DATETIME';
+        case 'T': return 'DATETIME';
+
+        case 'L': return 'BYTE';
+        case 'I': return 'INTEGER';
+        case 'I1': return 'BYTE';
+        case 'I2': return 'SMALLINT';
+        case 'I4': return 'INTEGER';
+        case 'I8': return 'INTEGER';
+
+        case 'F': return 'DOUBLE';
+        case 'N': return 'NUMERIC';
+        default:
+            return $meta;
+        }
+    }
+
+    // return string must begin with space
+    public function _CreateSuffix($fname, &$ftype, $fnotnull, $fdefault, $fautoinc, $fconstraint, $funsigned)
+    {
+        if ($fautoinc) {
+            $ftype = 'COUNTER';
+
+            return '';
+        }
+        if (substr($ftype, 0, 7) == 'DECIMAL') $ftype = 'DECIMAL';
+        $suffix = '';
+        if (strlen($fdefault)) {
+            //$suffix .= " DEFAULT $fdefault";
+            if ($this->debug) ADOConnection::outp("Warning: Access does not supported DEFAULT values (field $fname)");
+        }
+        if ($fnotnull) $suffix .= ' NOT NULL';
+        if ($fconstraint) $suffix .= ' ' . $fconstraint;
+
+        return $suffix;
+    }
+
+    public function CreateDatabase($dbname, $options=false)
+    {
+        return array();
+    }
+
+
+    public function SetSchema($schema)
+    {
+    }
+
+    public function AlterColumnSQL($tabname, $flds)
+    {
+        if ($this->debug) ADOConnection::outp('AlterColumnSQL not supported');
+
+        return array();
+    }
+
+
+    public function DropColumnSQL($tabname, $flds)
+    {
+        if ($this->debug) ADOConnection::outp('DropColumnSQL not supported');
+
+        return array();
+    }
+
+}

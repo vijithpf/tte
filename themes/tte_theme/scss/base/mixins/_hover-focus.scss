@@ -1,0 +1,13 @@
+// ----------------------------------------------------------------------
+
+  // Hover and Focus
+
+ // ----------------------------------------------------------------------
+
+ // example @include hoverFocus('text-decoration', 'none');
+
+@mixin hoverFocus() {
+  &:hover, &:focus {
+    @content;
+  }
+}

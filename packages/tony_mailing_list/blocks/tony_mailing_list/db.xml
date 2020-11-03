@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btTonyMailingList">
+	
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		
+		<field name="gIDs"  type="C" size="255"></field> 	
+		
+		<field name="allowUnregistered"  type="i" size="1"></field>
+		
+		<field name="showCheckboxes"  type="i" size="1"></field>
+		
+		<field name="signupText"  type="X" ></field>
+		
+		<field name="signupTitle"  type="C" size="255"></field> 
+		
+		<field name="titleWeight"  type="C" size="16"></field> 	
+		
+		<field name="subscribedMsg"  type="X" ></field>
+		
+		<field name="userAttrs"  type="C" size="255"></field> 
+		
+		<field name="validateEmail" type="i" size="1"></field>
+		
+		<field name="attrsRequired" type="i" size="1"></field>
+		
+		
+	</table>
+</schema>

@@ -1,0 +1,2709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable\n"
+"POT-Creation-Date: 2014-03-11 16:55+0100\n"
+"PO-Revision-Date: 2014-03-11 16:55+0100\n"
+"Last-Translator: Wim <wim@dewebmakers.nl>\n"
+"Language-Team: De Webmakers <wim@dewebmakers.nl>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: Z:\\Concrete 5\\dev\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: formidable\n"
+
+#: formidable/controller.php:3 formidable/models/formidable.php:2
+#: formidable/models/system/captcha/types/calculation/controller.php:1
+#: formidable/models/formidable/validator.php:2
+#: formidable/models/formidable/layout.php:2
+#: formidable/models/formidable/result.php:2
+#: formidable/models/formidable/form.php:2
+#: formidable/models/formidable/element.php:2
+#: formidable/models/formidable/mailing.php:2
+#: formidable/models/formidable/element/address.php:2
+#: formidable/models/formidable/element/time.php:2
+#: formidable/models/formidable/element/paragraph.php:2
+#: formidable/models/formidable/element/fullname.php:2
+#: formidable/models/formidable/element/wysiwyg.php:2
+#: formidable/models/formidable/element/checkbox.php:2
+#: formidable/models/formidable/element/text.php:2
+#: formidable/models/formidable/element/tinymce.php:2
+#: formidable/models/formidable/element/range.php:2
+#: formidable/models/formidable/element/radio.php:2
+#: formidable/models/formidable/element/hidden.php:2
+#: formidable/models/formidable/element/recipientselector.php:2
+#: formidable/models/formidable/element/slider.php:2
+#: formidable/models/formidable/element/website.php:2
+#: formidable/models/formidable/element/phone.php:2
+#: formidable/models/formidable/element/rating.php:2
+#: formidable/models/formidable/element/hr.php:2
+#: formidable/models/formidable/element/select.php:2
+#: formidable/models/formidable/element/emailaddress.php:2
+#: formidable/models/formidable/element/html_code.php:2
+#: formidable/models/formidable/element/password.php:2
+#: formidable/models/formidable/element/heading.php:2
+#: formidable/models/formidable/element/integer.php:2
+#: formidable/models/formidable/element/textarea.php:2
+#: formidable/models/formidable/element/line.php:2
+#: formidable/models/formidable/element/fileupload.php:2
+#: formidable/models/formidable/element/date.php:2
+#: formidable/elements/dashboard/mailing/elements.php:3
+#: formidable/elements/dashboard/mailing/list.php:2
+#: formidable/elements/dashboard/form/preview_nav.php:2
+#: formidable/elements/dashboard/form/elements.php:2
+#: formidable/elements/dashboard/form/edit.php:3
+#: formidable/elements/dashboard/form/list.php:3
+#: formidable/elements/dashboard/form/preview.php:3
+#: formidable/elements/dashboard/form/nav.php:2
+#: formidable/elements/dashboard/element/list.php:2
+#: formidable/controllers/dashboard/reports/formidable.php:1
+#: formidable/controllers/dashboard/formidable/controller.php:1
+#: formidable/controllers/dashboard/formidable/forms/elements.php:1
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:1
+#: formidable/controllers/dashboard/formidable/forms/controller.php:1
+#: formidable/blocks/formidable/add.php:1
+#: formidable/blocks/formidable/edit.php:1
+#: formidable/blocks/formidable/view.php:2
+#: formidable/blocks/formidable/form_setup_html.php:1
+#: formidable/blocks/formidable/controller.php:3
+#: formidable/blocks/formidable/templates/clean/view.php:2
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:2
+#: formidable/helpers/editor.php:8 formidable/tools/dashboard/editor.php:3
+#: formidable/single_pages/dashboard/reports/formidable.php:1
+#: formidable/single_pages/dashboard/formidable/view.php:1
+#: formidable/single_pages/dashboard/formidable/forms/elements.php:2
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:2
+#: formidable/single_pages/dashboard/formidable/forms/view.php:2
+msgid "Access Denied."
+msgstr ""
+
+#: formidable/controller.php:15
+msgid "Create awesome forms with a few clicks!"
+msgstr ""
+
+#: formidable/controller.php:20 formidable/blocks/formidable/controller.php:30
+msgid "Formidable"
+msgstr ""
+
+#: formidable/controller.php:56
+#: formidable/models/system/captcha/types/calculation/controller.php:45
+msgid "Calculation Captcha"
+msgstr ""
+
+#: formidable/models/formidable.php:139
+#: formidable/models/formidable/mailing.php:192
+#: formidable/blocks/formidable/controller.php:390
+#: formidable/blocks/formidable/controller.php:391
+#: formidable/tools/dashboard/results/dialog.php:99
+#: formidable/tools/dashboard/results/dialog.php:103
+#: formidable/tools/dashboard/results/dialog.php:107
+msgid "Unknown"
+msgstr ""
+
+#: formidable/models/formidable.php:148
+#: formidable/tools/dashboard/results/dialog.php:88
+msgid "Guest"
+msgstr ""
+
+#: formidable/models/formidable.php:310
+msgid "Type of element not supported"
+msgstr ""
+
+#: formidable/models/formidable.php:314
+#, php-format
+msgid "Class \"%s\" unknown!"
+msgstr ""
+
+#: formidable/models/system/captcha/types/calculation/controller.php:52
+msgid "Captcha Code"
+msgstr ""
+
+#: formidable/models/system/captcha/types/calculation/controller.php:59
+#: formidable/models/system/captcha/types/calculation/controller.php:79
+msgid "Please solve the equation"
+msgstr ""
+
+#: formidable/models/system/captcha/types/calculation/controller.php:79
+msgid "click the image to see another equation"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:66
+#: formidable/models/formidable/validator.php:202
+#: formidable/models/formidable/validator.php:209
+#: formidable/models/formidable/validator.php:216
+#: formidable/models/formidable/validator.php:223
+#: formidable/models/formidable/validator.php:237
+#: formidable/models/formidable/validator.php:245
+#: formidable/models/formidable/validator.php:251
+#: formidable/models/formidable/validator.php:263
+#: formidable/models/formidable/validator.php:272
+#: formidable/models/formidable/validator.php:275
+#: formidable/models/formidable/validator.php:282
+#: formidable/models/formidable/validator.php:288
+#: formidable/models/formidable/validator.php:294
+#: formidable/models/formidable/validator.php:299
+#: formidable/models/formidable/validator.php:307
+#: formidable/models/formidable/validator.php:314
+#: formidable/models/formidable/validator.php:334
+#: formidable/models/formidable/validator.php:341
+#: formidable/models/formidable/validator.php:403
+#: formidable/models/formidable/validator.php:409
+#: formidable/models/formidable/form.php:511
+#: formidable/controllers/dashboard/formidable/forms/controller.php:181
+#: formidable/controllers/dashboard/formidable/forms/controller.php:184
+#: formidable/controllers/dashboard/formidable/forms/controller.php:186
+#: formidable/controllers/dashboard/formidable/forms/controller.php:189
+#: formidable/controllers/dashboard/formidable/forms/controller.php:192
+#: formidable/controllers/dashboard/formidable/forms/controller.php:197
+#: formidable/controllers/dashboard/formidable/forms/controller.php:200
+#: formidable/controllers/dashboard/formidable/forms/controller.php:214
+#: formidable/controllers/dashboard/formidable/forms/controller.php:220
+#, php-format
+msgid "Field \"%s\" is invalid"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:71
+#, php-format
+msgid "Field \"%s\" is an invalid numeric value"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:77
+#, php-format
+msgid "Field \"%s\" is an invalid e-mailaddress"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:83
+#, php-format
+msgid "Fields \"%s\" is an invalid url"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:91
+#, php-format
+msgid "Fields \"%s\" and it's confirmation don't match"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:111
+#, php-format
+msgid "Fields \"%s\" only allows the following characters: %s"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:126
+#, php-format
+msgid "Field \"%s\" should be between %s and %s words"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:128
+#, php-format
+msgid "Field \"%s\" should have at least %s words"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:134
+#, php-format
+msgid "Field \"%s\" should be between %s and %s charachters"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:136
+#, php-format
+msgid "Field \"%s\" should be at least %s charachters"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:142
+#, php-format
+msgid "Field \"%s\" should be a numeric value between %s and %s"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:144
+#, php-format
+msgid "Field \"%s\" should be a numeric value equal or greater than %s"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:150
+#, php-format
+msgid "Field \"%s\" should have %s options selected"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:152
+#, php-format
+msgid "Field \"%s\" should have between %s and %s options selected"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:158
+#, php-format
+msgid "Field \"%s\" should have %s files"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:160
+#, php-format
+msgid "Field \"%s\" should have between %s and %s files"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:172
+#, php-format
+msgid "Field \"%s\" is invalid or empty"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:180
+#, php-format
+msgid "Field \"%s\" files are not permitted"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:202
+#: formidable/elements/dashboard/mailing/elements.php:17
+#: formidable/elements/dashboard/mailing/elements.php:71
+#: formidable/tools/dashboard/elements/dialog.php:68
+#: formidable/tools/dashboard/layouts/dialog.php:43
+msgid "Label / Name"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:209
+#: formidable/tools/dashboard/elements/dialog.php:113
+msgid "Placeholder"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:216
+msgid "Default"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:223
+msgid "Masking"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:231
+msgid "Minimum value"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:231
+#: formidable/models/formidable/validator.php:234
+#, php-format
+msgid "Field \"%s\" isn't a valid integer"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:234
+msgid "Maximum value"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:237
+msgid "Minimum/Maximum type"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:245
+msgid "Tooltip"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:251
+#: formidable/tools/dashboard/elements/dialog.php:147
+#: formidable/tools/dashboard/elements/dialog.php:158
+msgid "Content"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:263
+#: formidable/elements/dashboard/mailing/elements.php:19
+#: formidable/elements/dashboard/mailing/elements.php:73
+#: formidable/controllers/dashboard/formidable/forms/elements.php:55
+#: formidable/tools/dashboard/elements/dialog.php:201
+msgid "Option"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:272
+msgid "Other option (value)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:275
+msgid "Other option (type)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:282
+#: formidable/tools/dashboard/elements/dialog.php:172
+msgid "Code"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:288
+#: formidable/tools/dashboard/elements/dialog.php:352
+#: formidable/tools/dashboard/layouts/dialog.php:50
+msgid "Appearance"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:294
+#: formidable/tools/dashboard/elements/dialog.php:337
+msgid "Format"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:299
+msgid "Format (other)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:307
+#: formidable/tools/dashboard/elements/dialog.php:361
+msgid "Advanced options"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:314
+#: formidable/models/formidable/validator.php:325
+#: formidable/blocks/formidable/controller.php:96
+#: formidable/tools/dashboard/elements/dialog.php:278
+#: formidable/tools/dashboard/forms/preview.php:35
+msgid "Allowed extensions"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:325
+#, php-format
+msgid ""
+"Extensions \"%s\" in \"%s\" aren't allowed globally (check Allowed File "
+"Types)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:334
+#: formidable/tools/dashboard/elements/dialog.php:299
+msgid "Assign to fileset"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:341
+msgid "CSS Class"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:349
+#: formidable/elements/dashboard/form/edit.php:141
+#: formidable/helpers/mail.php:108 formidable/helpers/mail.php:132
+#: formidable/tools/dashboard/mailings/dialog.php:51
+msgid "From"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:349
+#: formidable/models/formidable/validator.php:354
+#: formidable/models/formidable/validator.php:357
+#: formidable/models/formidable/validator.php:362
+#: formidable/models/formidable/validator.php:367
+#: formidable/models/formidable/validator.php:370
+#: formidable/models/formidable/validator.php:386
+#: formidable/models/formidable/validator.php:393
+#, php-format
+msgid "Field %s is invalid"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:354
+msgid "From (Name)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:357
+msgid "From (Email Address)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:362
+#: formidable/tools/dashboard/mailings/dialog.php:63
+msgid "Reply To"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:367
+msgid "Reply To (Name)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:370
+msgid "Reply To (Email Address)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:380
+#: formidable/tools/dashboard/mailings/dialog.php:35
+#: formidable/tools/dashboard/mailings/dialog.php:80
+msgid "Send to"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:380
+#, php-format
+msgid "Field %s isn't selected"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:386
+#: formidable/models/formidable/validator.php:393
+msgid "Send to (custom)"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:403
+#: formidable/helpers/mail.php:115 formidable/helpers/mail.php:139
+#: formidable/tools/dashboard/mailings/dialog.php:126
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:19
+msgid "Subject"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:409
+#: formidable/elements/dashboard/form/edit.php:75
+#: formidable/elements/dashboard/form/edit.php:112
+#: formidable/elements/dashboard/form/edit.php:156
+#: formidable/tools/dashboard/mailings/dialog.php:36
+#: formidable/tools/dashboard/mailings/dialog.php:133
+msgid "Message"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:441
+#, php-format
+msgid "Dependency Rule #%s: %s is already used"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:447
+#: formidable/models/formidable/validator.php:450
+#, php-format
+msgid "Dependency Rule #%s: %s is invalid or not selected"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:456
+#: formidable/models/formidable/validator.php:463
+#, php-format
+msgid "Dependency Rule #%s: no depending element selected"
+msgstr ""
+
+#: formidable/models/formidable/validator.php:460
+#, php-format
+msgid "Dependency Rule #%s: condition value is invalid"
+msgstr ""
+
+#: formidable/models/formidable/layout.php:114
+#: formidable/models/formidable/form.php:324
+#: formidable/models/formidable/element.php:123
+#: formidable/models/formidable/mailing.php:133
+msgid "copy"
+msgstr ""
+
+#: formidable/models/formidable/result.php:242
+#: formidable/models/formidable/result.php:279
+msgid "Submitted"
+msgstr ""
+
+#: formidable/models/formidable/result.php:275
+#: formidable/models/formidable/result.php:306
+msgid "IP"
+msgstr ""
+
+#: formidable/models/formidable/result.php:276
+#: formidable/models/formidable/result.php:307
+msgid "Page"
+msgstr ""
+
+#: formidable/models/formidable/result.php:277
+#: formidable/models/formidable/result.php:308
+msgid "User"
+msgstr ""
+
+#: formidable/models/formidable/result.php:278
+#: formidable/models/formidable/result.php:309
+msgid "Answerset ID"
+msgstr ""
+
+#: formidable/models/formidable/result.php:280
+#: formidable/models/formidable/result.php:310
+msgid "Browser"
+msgstr ""
+
+#: formidable/models/formidable/result.php:281
+#: formidable/models/formidable/result.php:311
+#: formidable/tools/dashboard/results/dialog.php:102
+msgid "Platform"
+msgstr ""
+
+#: formidable/models/formidable/result.php:282
+#: formidable/models/formidable/result.php:312
+#: formidable/elements/dashboard/results/search_form_advanced.php:10
+msgid "Resolution"
+msgstr ""
+
+#: formidable/models/formidable/form.php:221
+msgid "Never"
+msgstr ""
+
+#: formidable/models/formidable/form.php:481
+msgid "Wrong form is loaded in the page, please try again"
+msgstr ""
+
+#: formidable/models/formidable/form.php:491
+msgid ""
+"Unable to complete action due to our spam policy. Please contact the "
+"administrator of this site for more information."
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:32
+#: formidable/models/formidable/element/address.php:33
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} country {n} postal_code"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:34
+msgid "address_1 {n} address_2 {n} city {n} county {n} country {n} zipcode"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:36
+msgid "address_1 {n} address_2 {n} city {n} state {n} postal_code {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:37
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} postal_code {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:38
+msgid "address_1 {n} address_2 {n} city {n} county {n} zipcode {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:40
+msgid "address_1 {n} address_2 {n} city {n} country {n} state {n} postal_code"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:41
+msgid ""
+"address_1 {n} address_2 {n} city {n} country {n} province {n} postal_code"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:42
+msgid "address_1 {n} address_2 {n} city {n} country {n} county {n} zipcode"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:44
+msgid "address_1 address_2 {n} postal_code city, state {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:45
+msgid "address_1 address_2 {n} postal_code city, province {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:46
+msgid "address_1 address_2 {n} zipcode city, county {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:48
+msgid "address_1 {n} postal_code city, state {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:49
+msgid "address_1 {n} postal_code city, province {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:50
+msgid "address_1 {n} zipcode city, county {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:51
+msgid "street, number {n} zipcode city, county {n} country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:52
+#: formidable/models/formidable/element/time.php:59
+#: formidable/models/formidable/element/fullname.php:35
+#: formidable/models/formidable/element/date.php:79
+msgid "Other format: "
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:55
+#: formidable/models/formidable/element/address.php:141
+msgid "Street"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:56
+#: formidable/models/formidable/element/address.php:146
+msgid "Number"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:57
+#: formidable/models/formidable/element/address.php:77
+msgid "Address 1"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:58
+#: formidable/models/formidable/element/address.php:82
+msgid "Address 2"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:59
+#: formidable/models/formidable/element/address.php:87
+msgid "City"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:60
+#: formidable/models/formidable/element/address.php:115
+#: formidable/models/formidable/element/address.php:121
+msgid "State"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:61
+#: formidable/models/formidable/element/address.php:104
+msgid "Province"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:62
+#: formidable/models/formidable/element/address.php:92
+#: formidable/models/formidable/element/address.php:98
+msgid "County"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:63
+msgid "Country"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:64
+#: formidable/models/formidable/element/address.php:131
+msgid "Postal Code"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:65
+#: formidable/models/formidable/element/address.php:136
+msgid "Zipcode"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:66
+#: formidable/models/formidable/element/fullname.php:41
+msgid "Break / New line"
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:67
+#: formidable/models/formidable/element/fullname.php:42
+msgid "You can also use specialchars like ,.!;: etc..."
+msgstr ""
+
+#: formidable/models/formidable/element/address.php:242
+msgid "Choose country"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:43
+msgid "Default time format (24 hours): HH:mm:ss"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:47
+msgid "Create element with timeslider"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:48
+msgid "Selectboxes for hours, minutes, etc."
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:49
+msgid "Create masked input textfield (only 24-hours notation)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:63
+msgid "hour (no leading zero)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:64
+msgid "hour (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:65
+msgid "minutes (no leading zero)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:66
+msgid "minutes (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:67
+msgid "seconds (no leading zero)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:68
+msgid "seconds (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:69
+msgid "am or pm for AM/PM"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:70
+msgid "AM or PM for AM/PM"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:71
+msgid "More information about timeformat: "
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:71
+#: formidable/models/formidable/element/time.php:78
+#: formidable/models/formidable/element/date.php:95
+#: formidable/models/formidable/element/date.php:102
+msgid "click here"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:75
+msgid "Manage some advanced options of the timepicker"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:76
+#: formidable/models/formidable/element/date.php:100
+msgid "Comma seperate options"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:77
+msgid "Example: hourMin: 8, hourMax: 16"
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:78
+#: formidable/models/formidable/element/date.php:102
+msgid "Possible options: "
+msgstr ""
+
+#: formidable/models/formidable/element/time.php:231
+#, php-format
+msgid "Field \"%s\" is an invalid time"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:32
+msgid "firstname prefix lastname"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:33
+msgid "firstname lastname"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:34
+msgid "prefix lastname"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:38
+#: formidable/models/formidable/element/fullname.php:52
+msgid "Firstname"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:39
+#: formidable/models/formidable/element/fullname.php:57
+msgid "Prefix"
+msgstr ""
+
+#: formidable/models/formidable/element/fullname.php:40
+#: formidable/models/formidable/element/fullname.php:62
+msgid "Lastname"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:34
+#: formidable/models/formidable/element/recipientselector.php:30
+#: formidable/models/formidable/element/select.php:32
+msgid "Selected options"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:38
+#: formidable/models/formidable/element/radio.php:33
+#: formidable/models/formidable/element/select.php:36
+msgid "Single text"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:39
+#: formidable/models/formidable/element/radio.php:34
+#: formidable/models/formidable/element/select.php:37
+msgid "Textarea"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:43
+#: formidable/models/formidable/element/radio.php:38
+msgid "One column"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:44
+#: formidable/models/formidable/element/radio.php:39
+msgid "Two columns"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:45
+#: formidable/models/formidable/element/radio.php:40
+msgid "Three columns"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:46
+#: formidable/models/formidable/element/radio.php:41
+msgid "Four columns"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:47
+#: formidable/models/formidable/element/radio.php:42
+msgid "Five columns"
+msgstr ""
+
+#: formidable/models/formidable/element/checkbox.php:48
+#: formidable/models/formidable/element/radio.php:43
+msgid "Automatically (let the width decide)"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:34
+msgid "Represents an alpha character"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:35
+msgid "Represents a numeric character"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:36
+msgid "Represents an alphanumeric character"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:37
+msgid ""
+"Represents optional data, everything behind the questionmark is optional"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:38
+msgid "Examples:"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:39
+msgid "Phone"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:40
+msgid "Product Code"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:41
+#: formidable/models/formidable/element/phone.php:49
+#, php-format
+msgid ""
+"More information about masking: <a href=\"%s\" target=\"_blank\">click here</"
+"a>"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:46
+#: formidable/models/formidable/element/textarea.php:33
+msgid "Words"
+msgstr ""
+
+#: formidable/models/formidable/element/text.php:47
+#: formidable/models/formidable/element/password.php:32
+#: formidable/models/formidable/element/integer.php:33
+#: formidable/models/formidable/element/textarea.php:34
+msgid "Characters"
+msgstr ""
+
+#: formidable/models/formidable/element/tinymce.php:27
+msgid "Simple (Basic tools for html, bold, italic, lists, etc...)"
+msgstr ""
+
+#: formidable/models/formidable/element/tinymce.php:28
+msgid "Advanced (Some extra options like images, links, special chars)"
+msgstr ""
+
+#: formidable/models/formidable/element/tinymce.php:29
+msgid "Concrete5 (Sure, everything is possible!) (not recommended)"
+msgstr ""
+
+#: formidable/models/formidable/element/range.php:27
+#: formidable/models/formidable/element/slider.php:32
+#: formidable/models/formidable/element/integer.php:32
+#: formidable/elements/dashboard/mailing/elements.php:47
+#: formidable/elements/dashboard/mailing/elements.php:98
+#: formidable/elements/dashboard/form/edit.php:98
+#: formidable/controllers/dashboard/formidable/forms/elements.php:69
+#: formidable/tools/dashboard/results/dialog.php:40
+#: formidable/tools/dashboard/results/dialog.php:57
+msgid "Value"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:36
+msgid "Horizontal - Range (default)"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:37
+msgid "Horizontal - Range with fixed minimum"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:38
+msgid "Horizontal - Range with fixed maximum"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:39
+msgid "Vertical - Range"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:40
+msgid "Vertical - Range with fixed minimum"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:41
+msgid "Vertical - Range with fixed maximum"
+msgstr ""
+
+#: formidable/models/formidable/element/slider.php:167
+#, php-format
+msgid "%s - %s"
+msgstr ""
+
+#: formidable/models/formidable/element/website.php:41
+msgid "Including http(s):// or (s)ftp://"
+msgstr ""
+
+#: formidable/models/formidable/element/website.php:51
+#: formidable/models/formidable/element/emailaddress.php:48
+#: formidable/models/formidable/element/password.php:58
+#: formidable/blocks/formidable/view.php:78
+#: formidable/blocks/formidable/templates/clean/view.php:78
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:78
+#, php-format
+msgid "Confirm %s"
+msgstr ""
+
+#: formidable/models/formidable/element/phone.php:47
+msgid "Your mask not available? Add a text field and create your own mask"
+msgstr ""
+
+#: formidable/models/formidable/element/phone.php:48
+#, php-format
+msgid "Send your mask to %s"
+msgstr ""
+
+#: formidable/models/formidable/element/rating.php:34
+#: formidable/models/formidable/element/rating.php:35
+#: formidable/models/formidable/element/rating.php:36
+msgid "stars"
+msgstr ""
+
+#: formidable/models/formidable/element/rating.php:83
+#, php-format
+msgid "%s of %s"
+msgstr ""
+
+#: formidable/models/formidable/element/password.php:36
+msgid "lowercase chars"
+msgstr ""
+
+#: formidable/models/formidable/element/password.php:37
+msgid "uppercase chars"
+msgstr ""
+
+#: formidable/models/formidable/element/password.php:38
+msgid "digits"
+msgstr ""
+
+#: formidable/models/formidable/element/password.php:39
+msgid "symbols"
+msgstr ""
+
+#: formidable/models/formidable/element/fileupload.php:35
+msgid "Files"
+msgstr ""
+
+#: formidable/models/formidable/element/fileupload.php:95
+#: formidable/elements/dashboard/results/search_results.php:14
+#: formidable/elements/dashboard/results/search_results.php:65
+#: formidable/elements/dashboard/form/list.php:32
+#: formidable/elements/dashboard/element/list.php:30
+#: formidable/tools/dashboard/forms/element_list.php:31
+#: formidable/tools/dashboard/forms/element_list.php:46
+msgid "Delete"
+msgstr ""
+
+#: formidable/models/formidable/element/fileupload.php:166
+#, php-format
+msgid "%s uploaded files"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:60
+msgid "Default date format: mm/dd/yyyy"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:64
+msgid "Create element with datepicker"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:65
+msgid "Selectboxes for years, months, days"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:66
+msgid "Create masked input textfield (only dd, mm and yyyy input)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:83
+msgid "day of month (no leading zero)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:84
+msgid "day of month (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:85
+msgid "day of the year (no leading zeros)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:86
+msgid "day of the year (three digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:87
+msgid "day name short"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:88
+msgid "day name long"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:89
+msgid "month of year (no leading zero)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:90
+msgid "month of year (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:91
+msgid "month name short"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:92
+msgid "month name long"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:93
+msgid "year (two digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:94
+msgid "year (four digit)"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:95
+msgid "More information about dateformat: "
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:99
+msgid "Manage some advanced options of the datepicker"
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:101
+msgid "Example: changeYear:true, yearRange:\"c-10:c+10\""
+msgstr ""
+
+#: formidable/models/formidable/element/date.php:225
+#, php-format
+msgid "Field \"%s\" is an invalid date"
+msgstr ""
+
+#: formidable/elements/editor_controls.php:6
+msgid "Add Image"
+msgstr ""
+
+#: formidable/elements/editor_controls.php:7
+msgid "Add File"
+msgstr ""
+
+#: formidable/elements/editor_controls.php:8
+msgid "Insert Link to Page"
+msgstr ""
+
+#: formidable/elements/editor_controls.php:9
+msgid "Insert Formidable Element"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:18
+#: formidable/elements/dashboard/mailing/elements.php:72
+#: formidable/tools/dashboard/elements/dialog.php:60
+msgid "Type"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:27
+msgid "All elements in the form"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:28
+#: formidable/elements/dashboard/mailing/elements.php:82
+msgid "All"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:30
+msgid "Add all elements"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:44
+#: formidable/elements/dashboard/mailing/elements.php:46
+#: formidable/elements/dashboard/mailing/elements.php:97
+#: formidable/tools/dashboard/results/dialog.php:39
+#: formidable/tools/dashboard/results/dialog.php:56
+msgid "Label"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:48
+#: formidable/elements/dashboard/mailing/elements.php:99
+msgid "Both"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:58
+msgid "No elements created yet."
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:59
+msgid ""
+"Go to \"Layout and Elements\"-tab in this form, and add some form elements."
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:81
+msgid "All advanced data of the form"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:84
+msgid "Add all advanced data"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/elements.php:112
+#: formidable/tools/dashboard/editor.php:26
+#: formidable/tools/dashboard/elements/dialog.php:19
+#: formidable/tools/dashboard/elements/dialog.php:443
+#: formidable/tools/dashboard/results/dialog.php:19
+#: formidable/tools/dashboard/results/dialog.php:116
+#: formidable/tools/dashboard/results/save_search.php:33
+#: formidable/tools/dashboard/results/delete_search.php:28
+#: formidable/tools/dashboard/mailings/dialog.php:19
+#: formidable/tools/dashboard/mailings/dialog.php:225
+#: formidable/tools/dashboard/layouts/dialog.php:21
+#: formidable/tools/dashboard/layouts/dialog.php:87
+msgid "Cancel"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/list.php:12
+#: formidable/elements/dashboard/element/list.php:24
+#: formidable/tools/dashboard/forms/element_list.php:30
+#: formidable/tools/dashboard/forms/element_list.php:45
+msgid "Edit"
+msgstr ""
+
+#: formidable/elements/dashboard/mailing/list.php:13
+#: formidable/elements/dashboard/form/list.php:31
+#: formidable/elements/dashboard/element/list.php:27
+msgid "Copy"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:4
+msgid "Fields"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:5
+msgid "On page"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:6
+msgid "From IP"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:7
+msgid "Submitted between"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:8
+msgid "From userID"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:9
+msgid "Browser used"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:11
+msgid "Platform / OS"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:40
+#: formidable/elements/dashboard/results/search_form_advanced.php:189
+msgid "to"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:59
+#: formidable/elements/dashboard/results/search_form_advanced.php:213
+#: formidable/tools/dashboard/results/dialog.php:107
+msgid "px"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:83
+msgid "** Select a saved search."
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:85
+msgid "** None (Exit Saved Search)"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:93
+msgid "Saved Search"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:97
+msgid "Delete Saved Search"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:105
+msgid "Form(s)"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:116
+msgid "Keywords"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:118
+msgid "Name or Email Address"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:123
+msgid "# Per Page"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:134
+msgid "Search"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:140
+#: formidable/tools/dashboard/mailings/tools.php:51
+msgid "Advanced"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:146
+msgid "Additional Filters"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:147
+msgid "Add"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:155
+msgid "Select Search Field."
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:244
+msgid "Customize Results"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_form_advanced.php:245
+#: formidable/tools/dashboard/results/save_search.php:32
+msgid "Save Search"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_results.php:13
+msgid "With Selected"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_results.php:20
+#, php-format
+msgid "Edit \"%s\"-form"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_results.php:64
+msgid "View"
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_results.php:73
+msgid "No results found."
+msgstr ""
+
+#: formidable/elements/dashboard/results/search_results.php:79
+msgid "Export"
+msgstr ""
+
+#: formidable/elements/dashboard/form/preview_nav.php:14
+msgid "Warning!"
+msgstr ""
+
+#: formidable/elements/dashboard/form/preview_nav.php:14
+msgid ""
+"This is a preview! You can't submit. Styles and theme aren't loaded, just a "
+"preview with the default view and css."
+msgstr ""
+
+#: formidable/elements/dashboard/form/preview_nav.php:15
+msgid "Back to form"
+msgstr ""
+
+#: formidable/elements/dashboard/form/elements.php:7
+msgid "Search:"
+msgstr ""
+
+#: formidable/elements/dashboard/form/elements.php:27
+msgid "No available elements found!"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:15
+msgid "Set the properties for your form."
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:17
+msgid "Form name"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:19
+#: formidable/controllers/dashboard/formidable/forms/controller.php:32
+msgid "My Formidable Form"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:23
+msgid "Use captcha on your form."
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:25
+msgid "Captcha (label)"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:29
+msgid "Captcha"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:30
+msgid "Label for the captcha"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:35
+msgid "Buttons"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:37
+#: formidable/controllers/dashboard/formidable/forms/controller.php:186
+msgid "Submit button label"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:39
+#: formidable/controllers/dashboard/formidable/forms/controller.php:35
+msgid "Submit now!"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:43
+#: formidable/controllers/dashboard/formidable/forms/controller.php:189
+msgid "Clear button label"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:47
+#: formidable/controllers/dashboard/formidable/forms/controller.php:34
+msgid "Clear form"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:48
+msgid "Label for the \"reset form\" button"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:53
+msgid ""
+"Review the submission. If enabled, the submitter will be prompted to a "
+"preview page that lets them double check their entries before submitting the "
+"form."
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:55
+msgid "Enable review"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:60
+msgid "Add/Edit Description"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:61
+msgid "Click on the button to add/edit the content."
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:66
+msgid "Redirect or show message after succesfully submitted"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:68
+msgid "After submission"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:70
+#: formidable/elements/dashboard/form/edit.php:107
+#: formidable/elements/dashboard/form/edit.php:151
+msgid "Show message"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:70
+#: formidable/elements/dashboard/form/edit.php:107
+#: formidable/elements/dashboard/form/edit.php:151
+msgid "Redirect to page"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:78
+#: formidable/elements/dashboard/form/edit.php:115
+#: formidable/elements/dashboard/form/edit.php:159
+msgid "Add/Edit Message"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:84
+#: formidable/elements/dashboard/form/edit.php:121
+#: formidable/elements/dashboard/form/edit.php:165
+msgid "Select page"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:92
+msgid "Limit submissions"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:94
+msgid "Enable limits"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:105
+msgid "If limit reached"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:130
+msgid "Scheduling"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:132
+msgid "Enable scheduling"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:144
+#: formidable/helpers/mail.php:107 formidable/helpers/mail.php:131
+msgid "To"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:149
+msgid "If outside schedule"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:175
+msgid "Use HTML5 elements"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:184
+#: formidable/tools/dashboard/elements/dialog.php:390
+#: formidable/tools/dashboard/layouts/dialog.php:57
+msgid "CSS Classes"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:189
+msgid "Add classname(s) to customize your form. Example: myform"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:196
+#: formidable/tools/dashboard/elements/dialog.php:444
+#: formidable/tools/dashboard/results/customize_search_columns.php:90
+#: formidable/tools/dashboard/mailings/dialog.php:226
+#: formidable/tools/dashboard/layouts/dialog.php:88
+msgid "Save"
+msgstr ""
+
+#: formidable/elements/dashboard/form/edit.php:196
+#: formidable/elements/dashboard/form/list.php:27
+#: formidable/elements/dashboard/form/nav.php:27
+msgid "Form Properties"
+msgstr ""
+
+#: formidable/elements/dashboard/form/list.php:24
+#: formidable/elements/dashboard/form/nav.php:20
+msgid "Results"
+msgstr ""
+
+#: formidable/elements/dashboard/form/list.php:25
+#: formidable/elements/dashboard/form/nav.php:21
+msgid "Preview"
+msgstr ""
+
+#: formidable/elements/dashboard/form/list.php:28
+#: formidable/elements/dashboard/form/nav.php:30
+#: formidable/single_pages/dashboard/formidable/forms/elements.php:3
+msgid "Layout and elements"
+msgstr ""
+
+#: formidable/elements/dashboard/form/list.php:29
+#: formidable/elements/dashboard/form/nav.php:33
+msgid "Emails"
+msgstr ""
+
+#: formidable/elements/dashboard/form/list.php:32
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: formidable/elements/dashboard/form/nav.php:18
+msgid "Back to list"
+msgstr ""
+
+#: formidable/elements/dashboard/element/list.php:30
+msgid "Are you sure you want to delete this element?"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/results.php:36
+msgid "Are you sure you want to delete all selected submissions?"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/results.php:209
+msgid "Submission can't be found!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/results.php:210
+#: formidable/controllers/dashboard/formidable/forms/elements.php:403
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:246
+#: formidable/controllers/dashboard/formidable/forms/controller.php:286
+msgid "Oops, something went wrong!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/results.php:212
+msgid "Submission deleted successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:53
+#: formidable/tools/dashboard/elements/dialog.php:198
+#: formidable/tools/dashboard/mailings/dialog.php:57
+#: formidable/tools/dashboard/mailings/dialog.php:69
+msgid "Name"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:54
+#: formidable/tools/dashboard/elements/dialog.php:199
+#: formidable/tools/dashboard/mailings/dialog.php:58
+#: formidable/tools/dashboard/mailings/dialog.php:70
+msgid "E-mailaddress"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:56
+msgid "Add element to Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:57
+msgid "Edit element on Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:58
+msgid "Add layout on Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:59
+msgid "Edit layout on Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:60
+msgid "Element successfully saved!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:61
+msgid "Element successfully duplicated!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:62
+msgid "Element successfully deleted!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:63
+msgid "Layout successfully saved!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:64
+msgid "Layout successfully deleted!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:65
+msgid "Classname to toggle"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:66
+msgid "Value to set"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:67
+msgid "Placeholder to set"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:68
+#: formidable/controllers/dashboard/formidable/forms/elements.php:567
+msgid "any value"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:68
+#: formidable/controllers/dashboard/formidable/forms/elements.php:568
+msgid "no value"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:70
+msgid "Are you sure you want to delete this dependency rule?"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:71
+#: formidable/controllers/dashboard/formidable/forms/elements.php:576
+msgid "equals"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:71
+#: formidable/controllers/dashboard/formidable/forms/elements.php:577
+msgid "not equal to"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:71
+msgid "contains"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:71
+msgid "does not contain"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:86
+msgid "Form created successfully! Please add layouts and elements to the form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:402
+msgid "Form or element can't be found!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:404
+msgid "Element saved successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:406
+msgid "Element deleted successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:437
+msgid "OR"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:442
+msgid "Delete this rule"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:443
+msgid "Move this rule"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:444
+msgid "Rule"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:495
+msgid "Select behaviour"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:496
+msgid "Show"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:497
+msgid "Enable"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:498
+msgid "Toggle classname"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:501
+msgid "Change placeholder to"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:504
+msgid "Change value to"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:517
+msgid "Delete this action"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:518
+msgid "Add an action to this rule"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:520
+#: formidable/controllers/dashboard/formidable/forms/elements.php:589
+msgid "and"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:554
+msgid "is enabled"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:555
+msgid "is disabled"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:557
+msgid "Select an element"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:578
+msgid "matches"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:579
+msgid "does not match"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:586
+msgid "Delete this element"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:587
+msgid "Add an element to this rule"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:590
+msgid "if"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:594
+msgid "has"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/elements.php:596
+msgid "selected/checked"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:45
+msgid "Choose an element"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:46
+msgid "Choose a page"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:47
+msgid "Add mailing to Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:48
+msgid "Edit mailing from Formidable Form"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:49
+msgid "Mailing successfully saved!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:50
+msgid "Mailing successfully duplicated!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:51
+msgid "Mailing successfully deleted!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:52
+#: formidable/tools/dashboard/mailings/dialog.php:204
+msgid "Choose file"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:66
+#: formidable/controllers/dashboard/formidable/forms/controller.php:58
+#, php-format
+msgid "%s submission"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:68
+#: formidable/controllers/dashboard/formidable/forms/controller.php:60
+#, php-format
+msgid "You succesfully sent our %s on our Concrete5 website."
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:69
+#: formidable/controllers/dashboard/formidable/forms/controller.php:61
+msgid "The following information was sent to us:"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:71
+#: formidable/controllers/dashboard/formidable/forms/controller.php:38
+#: formidable/controllers/dashboard/formidable/forms/controller.php:63
+msgid "Thank you!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:72
+#: formidable/controllers/dashboard/formidable/forms/controller.php:64
+msgid "Regards,"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:115
+msgid "Send from custom sender:"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:116
+msgid "Use the \"From\"-details"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:116
+msgid "Use custom \"Reply to\"-details:"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:245
+msgid "Form or mailing can't be found!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:247
+msgid "Mailing saved successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/mailings.php:249
+msgid "Mailing deleted successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:33
+msgid "Required fields"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:36
+msgid "Review your submission"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:37
+msgid "Please check the information you want to send."
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:39
+msgid "You have reached the maximum submissions of the form."
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:40
+msgid "The form is currently unavailable."
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:41
+msgid "Form succesfully submitted"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:44
+msgid "Total submissions"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:45
+msgid "Per IP-address"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:46
+msgid "Per user (guest-visitors excluded)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:77
+msgid "Edit content"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:78
+msgid "Add content"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:79
+msgid ""
+"You have made some changes to the Form Properties. Are you sure you want to "
+"discard these changes?"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:126
+#: formidable/controllers/dashboard/formidable/forms/controller.php:288
+msgid "Form saved successfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:181
+msgid "From name"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:184
+msgid "Captcha label"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:192
+msgid "Description (review)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:196
+msgid "Limit (value)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:196
+#, php-format
+msgid "Field \"%s\" is invalid number"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:197
+msgid "Limit (type)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:200
+msgid "Message (limit submissions)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:202
+msgid "Page (limit submissions)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:202
+#: formidable/controllers/dashboard/formidable/forms/controller.php:216
+#, php-format
+msgid "Field \"%s\" isn't selected"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:208
+msgid "Start date (schedule)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:208
+#: formidable/controllers/dashboard/formidable/forms/controller.php:211
+#, php-format
+msgid "Field \"%s\" is invalid date"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:211
+msgid "End date (schedule)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:214
+msgid "Message (schedule)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:216
+msgid "Page (schedule)"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:220
+msgid "CSS value"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:285
+msgid "Form can't be found!"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:287
+msgid "Form duplicated succesfully"
+msgstr ""
+
+#: formidable/controllers/dashboard/formidable/forms/controller.php:290
+msgid "Form deleted successfully"
+msgstr ""
+
+#: formidable/blocks/formidable/view.php:5
+#: formidable/blocks/formidable/templates/clean/view.php:5
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:5
+msgid "Can't find the Formidable Form"
+msgstr ""
+
+#: formidable/blocks/formidable/view.php:91
+#: formidable/blocks/formidable/templates/clean/view.php:91
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:91
+msgid "You have"
+msgstr ""
+
+#: formidable/blocks/formidable/view.php:91
+#: formidable/blocks/formidable/templates/clean/view.php:91
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:91
+msgid "characters"
+msgstr ""
+
+#: formidable/blocks/formidable/view.php:91
+#: formidable/blocks/formidable/templates/clean/view.php:91
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:91
+msgid "left"
+msgstr ""
+
+#: formidable/blocks/formidable/view.php:149
+#: formidable/blocks/formidable/templates/clean/view.php:148
+#: formidable/blocks/formidable/templates/twitter_bootstrap/view.php:148
+msgid "Back"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:12
+msgid "Select a Formidable Form"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:14
+msgid "Form Name"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:21
+msgid "Edit forms"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:22
+msgid "Clicking will take you back to the dashboard."
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:23
+msgid "The current page will remain in Edit Mode!"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:30
+msgid "There are no Formidable forms!"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:31
+msgid "Go to dashboard and create a Formidable Form"
+msgstr ""
+
+#: formidable/blocks/formidable/form_setup_html.php:32
+#: formidable/single_pages/dashboard/formidable/results.php:14
+msgid "Create a new FormidableForm"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:26
+msgid "Adds a Formidable Form to you page."
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:35
+msgid "You must select a form."
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:90
+#: formidable/tools/dashboard/forms/preview.php:29
+msgid "File size not allowed"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:91
+#: formidable/tools/dashboard/forms/preview.php:30
+msgid "Invalid file extension"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:92
+#: formidable/tools/dashboard/forms/preview.php:31
+msgid "Max files number reached"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:93
+#: formidable/tools/dashboard/forms/preview.php:32
+#, php-format
+msgid "Extension \\\"%s\\\" not allowed"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:94
+#: formidable/tools/dashboard/forms/preview.php:33
+msgid "Choose State/Province"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:95
+#: formidable/tools/dashboard/forms/preview.php:34
+msgid "Please wait..."
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:163
+msgid "Can't remove temporary data!"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:222
+#: formidable/blocks/formidable/controller.php:281
+msgid "Can't save data! Please try again later"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:253
+msgid "Can't move temporary file to filemanager"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:262
+#: formidable/tools/dashboard/mailings/dialog.php:177
+msgid "Uploaded Files"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:268
+msgid "Can't remove temporary file"
+msgstr ""
+
+#: formidable/blocks/formidable/controller.php:370
+msgid "File succesfully uploaded"
+msgstr ""
+
+#: formidable/helpers/mail.php:103
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr ""
+
+#: formidable/helpers/mail.php:106 formidable/helpers/mail.php:130
+msgid "Template Used"
+msgstr ""
+
+#: formidable/helpers/mail.php:110 formidable/helpers/mail.php:134
+msgid "CC"
+msgstr ""
+
+#: formidable/helpers/mail.php:112 formidable/helpers/mail.php:136
+msgid "BCC"
+msgstr ""
+
+#: formidable/helpers/mail.php:114 formidable/helpers/mail.php:138
+msgid "Reply-To"
+msgstr ""
+
+#: formidable/helpers/mail.php:116 formidable/helpers/mail.php:140
+msgid "Body"
+msgstr ""
+
+#: formidable/helpers/mail.php:126
+msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+msgstr ""
+
+#: formidable/helpers/mail.php:128
+msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+msgstr ""
+
+#: formidable/tools/dashboard/editor.php:27
+msgid "Save content"
+msgstr ""
+
+#: formidable/tools/dashboard/editor.php:28
+msgid "Clear content"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:48
+#: formidable/single_pages/dashboard/formidable/forms/view.php:3
+msgid "Properties"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:51
+msgid "Dependency"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:58
+msgid ""
+"Please set the properties of this element. Each element has his own "
+"behaviour and/or values."
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:77
+msgid "Hide label / name"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:81
+msgid "When enabled, the label of the form element will not be displayed"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:89
+msgid "Confirmation"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:93
+msgid "When enabled, duplicates field and compare both values"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:101
+msgid "Required"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:105
+msgid "When enabled, the submitted value will be required and checked"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:125
+msgid "Default value"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:185
+msgid "Element options"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:216
+msgid "When enabled, user can add a new option."
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:225
+msgid "Multiple options"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:229
+msgid "When enabled, multiple options can be selected"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:237
+#: formidable/tools/dashboard/elements/dialog.php:241
+msgid "Minimum"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:237
+#: formidable/tools/dashboard/elements/dialog.php:242
+msgid "Maximum"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:251
+msgid "Allowed certain chars"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:260
+#: formidable/tools/dashboard/mailings/dialog.php:88
+#: formidable/tools/dashboard/mailings/dialog.php:187
+msgid "Use CTRL (or option) to deselect or select multiple"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:268
+msgid "File handling"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:271
+msgid "What do you want to happen when files are uploaded?"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:283
+msgid "Comma seperate each extension"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:306
+msgid "No filesets available"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:308
+msgid "Assign uploaded file to selected fileset"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:316
+msgid "Enable masking"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:378
+msgid "Tooltip / Description"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:396
+#: formidable/tools/dashboard/layouts/dialog.php:63
+msgid "Add classname(s) to customize your form field. Example: myformelement"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:414
+msgid "Beta:"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:414
+msgid "Having problems? Please send a support ticket through Concrete5."
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:417
+msgid ""
+"If you want you can use dependencies for this element. This means the "
+"behaviour or the value can be influenced with the behaviour or value of "
+"another element"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:428
+msgid "Add dependency rule"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:431
+msgid "Note:"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/dialog.php:431
+msgid ""
+"You have to save the element first before you can add dependencies to this "
+"element."
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:12
+#, php-format
+msgid "Error: \"%s\" can't be added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:15
+#, php-format
+msgid "Field \"%s\" is succesfully added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:21
+msgid "Error: Field can't be deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:24
+msgid "Field succesfully deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:30
+msgid "Error: Field can't be duplicated"
+msgstr ""
+
+#: formidable/tools/dashboard/elements/tools.php:33
+msgid "Field succesfully duplicated"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:15
+msgid "There are no results found, the answers are empty or not set"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:28
+msgid "Submitted data"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:29
+msgid "Submission details"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:60
+msgid "Submitted on"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:64
+msgid "From page"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:70
+#, php-format
+msgid "(Page ID: %s)"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:72
+msgid "Unknown or deleted page"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:77
+msgid "Submitted by"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:83
+#, php-format
+msgid "(User ID: %s)"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:86
+msgid "Unknown or deleted user"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:94
+msgid "Submitters IP"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:98
+msgid "Used Browser"
+msgstr ""
+
+#: formidable/tools/dashboard/results/dialog.php:106
+msgid "Screen resolution"
+msgstr ""
+
+#: formidable/tools/dashboard/results/save_search.php:29
+msgid "Enter a name for this saved search."
+msgstr ""
+
+#: formidable/tools/dashboard/results/save_search.php:44
+msgid "You must enter a valid name"
+msgstr ""
+
+#: formidable/tools/dashboard/results/delete_search.php:12
+msgid "Invalid Saved Search"
+msgstr ""
+
+#: formidable/tools/dashboard/results/delete_search.php:21
+msgid "Are you sure you want to delete the following search?"
+msgstr ""
+
+#: formidable/tools/dashboard/results/delete_search.php:27
+msgid "Delete Search"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:44
+msgid "Choose Headers"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:46
+msgid "Standard Properties"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:58
+msgid "Additional Columns"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:68
+msgid "Column Order"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:69
+msgid "Click and drag to change column order."
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:76
+msgid "Sort By"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:85
+msgid "Ascending"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:86
+msgid "Descending"
+msgstr ""
+
+#: formidable/tools/dashboard/results/customize_search_columns.php:92
+msgid "Reset customized results"
+msgstr ""
+
+#: formidable/tools/dashboard/results/tools.php:13
+msgid "Error: Result can't be deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/results/tools.php:17
+msgid "Result succesfully deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/forms/element_list.php:19
+msgid "Empty column"
+msgstr ""
+
+#: formidable/tools/dashboard/forms/element_list.php:26
+msgid "Column"
+msgstr ""
+
+#: formidable/tools/dashboard/forms/element_list.php:29
+msgid "Add element"
+msgstr ""
+
+#: formidable/tools/dashboard/forms/element_list.php:42
+msgid "Row"
+msgstr ""
+
+#: formidable/tools/dashboard/forms/element_list.php:53
+#: formidable/single_pages/dashboard/formidable/forms/elements.php:19
+msgid "Add row"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:34
+msgid "Send from"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:37
+msgid "Attachments"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:48
+msgid ""
+"Set the \"From\"-header of the mail. You can either select a form element or "
+"add a custom one. You can also set the \"Reply-To\"-header of the mail when "
+"you use a custom \"From\"-header. This is for the advanced user."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:78
+msgid ""
+"You can send a mail to multiple addresses. You can select \"Send to\"-"
+"elements if you have them in your form. You can also add custom Email Address"
+"(es) in the field below."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:91
+msgid ""
+"Add an \"Email Address\" or a \"Recipient Selector\" element(s) to enable "
+"selection of recipient."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:92
+msgid "You must add custom e-mailaddress now:"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:97
+msgid "E-mail Address(es)"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:102
+msgid "Comma seperate each e-mailaddress"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:108
+msgid "Send as CC"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:113
+msgid "Use CC instead of BCC (default) for sending mail"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:124
+msgid ""
+"Define your mail here. Add a subject and a HTML-message. In your message you "
+"can use element values and labels form the form by clicking on \"Insert "
+"Formidable Element\" in the top bar of the editor."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:147
+msgid "Discard empty"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:152
+msgid "If checked empty elements will not be shown in message"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:159
+msgid "Discard layout"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:164
+msgid "If checked layout elements will not be shown in message"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:175
+msgid ""
+"With your mailing you can send attachments. You can add the files from "
+"\"Upload Files\"-elements in your form. You can also add files from the "
+"filemanager."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:190
+msgid "Add an \"Upload Files\"-element to enable selection of attachments."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:191
+msgid "You can select attachments from the filemanager:"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:198
+msgid "From Filemanager"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/dialog.php:212
+msgid ""
+"Be careful with size and extensions, some spamfilters can block your mail."
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:12
+msgid "Error: Mailing can't be added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:16
+msgid "Mailing is succesfully added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:22
+msgid "Error: Mailing can't be deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:26
+msgid "Mailing succesfully deleted"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:37
+msgid "Error: Mailing can't be duplicated"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:41
+msgid "Mailing succesfully duplicated"
+msgstr ""
+
+#: formidable/tools/dashboard/mailings/tools.php:50
+msgid "Elements"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:10
+msgid "Div"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:11
+msgid "Fieldset (with legend, if label exists)"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:40
+msgid "Set the properties of the column"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:69
+msgid "Set the properties of the row"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:72
+msgid "Number of columns"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/dialog.php:76
+msgid "If you want to have less columns, empty them first."
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/tools.php:11
+msgid "Error: Layout can't be added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/tools.php:14
+msgid "Layout is succesfully added or updated"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/tools.php:20
+msgid "Error: Row or column must be empty before deletion"
+msgstr ""
+
+#: formidable/tools/dashboard/layouts/tools.php:23
+msgid "Layout succesfully deleted"
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:24
+msgid "No errors."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:29
+msgid "Invalid file."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:33
+msgid "Invalid file extension."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:37
+msgid "The file was only partially uploaded."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:43
+#, php-format
+msgid ""
+"Uploaded file is too large. The current value of upload_max_filesize is %s"
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:47
+msgid ""
+"Unable to copy file to storage directory. Please check permissions on your "
+"upload directory and ensure they can be written to by your web server."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:50
+msgid "No temporary directory."
+msgstr ""
+
+#: formidable/libraries/formidable_file_importer.php:54
+#, php-format
+msgid ""
+"An unknown error occurred while uploading the file. Please check that file "
+"uploads are enabled, and that your file does not exceed the size of the "
+"post_max_size or upload_max_filesize variables.\n"
+"\n"
+"File Uploads: %s\n"
+"Max Upload File Size: %s\n"
+"Post Max Size: %s"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/results.php:4
+msgid "Search Formidable Results"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/results.php:4
+msgid "Search the results of Formidable"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/results.php:16
+#: formidable/single_pages/dashboard/formidable/forms/view.php:52
+msgid "You have not created any forms."
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/elements.php:3
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:3
+#: formidable/single_pages/dashboard/formidable/forms/view.php:3
+msgid "Formidable Forms"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/elements.php:3
+msgid "List of rows and colums containing elements of this form"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:3
+msgid "Mailings"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:3
+msgid "List of mailing for this form"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:10
+msgid "Create a new mail"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:20
+msgid "Mail from"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/mailings.php:25
+msgid "You didn't create any mails yet."
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:3
+msgid "List of Formidable Forms. If the list is empty, please add one."
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:26
+#, php-format
+msgid "Back to \"%s\"-page"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:30
+msgid "Add new"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:37
+msgid "Form Title"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:38
+msgid "Last Submission"
+msgstr ""
+
+#: formidable/single_pages/dashboard/formidable/forms/view.php:39
+msgid "Submissions"
+msgstr ""
+
+#: formidable/jobs/remove_temp_submissions.php:10
+msgid "Formidable cleanup"
+msgstr ""
+
+#: formidable/jobs/remove_temp_submissions.php:14
+msgid "Removes temporary content and files."
+msgstr ""
+
+#: formidable/jobs/remove_temp_submissions.php:85
+#, php-format
+msgid ""
+"%s temp submissions deleted, %s temp answers deleted, %s temp files deleted"
+msgstr ""

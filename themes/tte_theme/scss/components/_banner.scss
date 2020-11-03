@@ -1,0 +1,327 @@
+// File Name: _banner.scss
+// Description: global banner styles
+.banner {
+  position: relative;
+
+  height: 650px;
+
+  @include breakpoint(767) {
+    height: 500px;
+  }
+
+  &.news-banner {
+    height: 500px;
+  }
+}
+
+#home_banner {
+  .banner_details {
+    opacity: 0;
+    visibility: hidden;
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.slides-pagination {
+  width: 100px;
+  text-align: center;
+  overflow: visible;
+
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
+  margin: 0 auto;
+
+  @include breakpoint(991) {
+    left: 20%;
+  }
+
+  a {
+    background-image: none;
+    background-color: rgba(255,255,255,.4);
+
+    border: 0;
+
+    width: 12px;
+    height: 12px;
+
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    @include hide-text();
+
+    &.current {
+      background-color: $white;
+
+      @include transform(scale(1.5));
+    }
+  }
+}
+
+
+.banner_block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+
+  width: 100%;
+  height: 420px;
+
+  @include breakpoint(767) {
+    height: 360px;
+  }
+
+  p {
+    font-size: 18px;
+
+    @include breakpoint(1199) {
+      font-size: 16px;
+    }
+
+    @include breakpoint(1024) {
+      font-size: 14px;
+    }
+  }
+
+  .banner_content,
+  .banner_space {
+    float: left;
+  }
+
+  .banner_content {
+    position: relative;
+
+    width: 50%;
+    height: 100%;
+
+    color: $white;
+
+    @include breakpoint(991) {
+      width: 60%;
+    }
+
+    @include breakpoint(767) {
+      width: 70%;
+    }
+
+    @include breakpoint(560) {
+      width: 100%;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      background: $purple60;
+
+      width: 100%;
+      height: 60px;
+
+      position: absolute;
+      bottom: -60px;
+    }
+
+    .banner_title {
+      font-size: 45px;
+
+      display: block;
+      margin-bottom: 20px;
+
+      @include breakpoint(1199) {
+        font-size: 40px;
+      }
+
+      @include breakpoint(1100) {
+        font-size: 36px;
+      }
+      @include breakpoint(1024) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      color: $white;
+    }
+  }
+  .banner_details{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 60px 60px 40px;
+
+    background: $purple60;
+
+    @include breakpoint(767) {
+      padding: 50px 40px;
+    }
+  }
+
+  .banner_space {
+    background: $purple30;
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 50%;
+
+    @include breakpoint(991) {
+      left: 60%;
+    }
+
+    @include breakpoint(767) {
+      left: 70%;
+    }
+
+    @include breakpoint(560) {
+      left: 100%;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+
+      background: $purple30;
+
+      width: 100%;
+      height: 60px;
+
+      position: absolute;
+      bottom: -60px;
+    }
+  }
+}
+
+.block_label {
+  display: none;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background: white;
+  color: $purple;
+
+  padding: 16px 20px;
+}
+
+.banner_blurred_wrap {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  .banner_blurred_image {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+
+    opacity: 0;
+    visibility: hidden;
+
+    @include transition(opacity .6s ease);
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.arrowdown {
+  position: absolute;
+  top: auto;
+  right: 0;
+  left: -11px;
+  bottom: 70px;
+  z-index: 997;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 44px;
+  height: 22px;
+
+  background-image: url('#{$imgDir}/arrowdownwhite.png');
+  background-size: 44px 22px;
+  background-repeat: no-repeat;
+
+
+  @include breakpoint(991) {
+    left: 20%;
+  }
+
+  @include breakpoint(767) {
+    bottom: 0;
+  }
+}
+
+/*====== News single page banner ======*/
+
+.gobacktonews {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+
+  background: $purple60;
+  color: $white;
+
+  padding: 20px 20px 20px 50px;
+
+    &::before {
+      content: '';
+      display: block;
+
+      width: 15px;
+      height: 15px;
+
+      background-image: url('#{$imgDir}/arrowLeft.png');
+      background-size: 15px 15px;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+
+  @include hoverFocus {
+    background: $purple;
+    color: $white;
+    text-decoration: none;
+  }
+
+}
+
+.banner-logo {
+  fill: $white;
+  max-width: 240px;
+
+  position: absolute;
+  top: 0;
+  left: 25%;
+  bottom: 0;
+  margin: auto;
+}

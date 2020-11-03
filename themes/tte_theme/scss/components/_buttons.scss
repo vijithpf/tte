@@ -1,0 +1,98 @@
+// File Name: _buttons.scss
+// Description: global button styles
+
+.btn {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-family: $robotoRegular;
+
+  padding: 16px;
+
+  @include breakpoint(1199) {
+    padding: 14px;
+  }
+
+  @include breakpoint(1024) {
+    padding: 12px;
+  }
+
+  @include breakpoint(1199) {
+    font-size: 14px;
+  }
+
+  &.light {
+    font-family: $robotoRegular;
+  }
+
+  &.btn-black {
+    background: none;
+    border: 1px solid $black;
+
+    color: $black;
+
+    @include transition(all .3s ease);
+
+    @include hoverFocus {
+      background: $black;
+      color: $white;
+    }
+  }
+  &.btn-white {
+    background: none;
+    border: 1px solid white;
+    color: $white;
+
+    @include transition(all .3s ease);
+
+    @include hoverFocus {
+      background: $white;
+      color: $purple;
+    }
+  }
+
+  &.btn-clr-purple {
+    background: none;
+    color: $purple;
+    border: 1px solid;
+    
+    @include hoverFocus {
+      color: $white;
+      background: $purple;
+    }
+  }
+  &.btn-light-dark {
+    color:#949494;
+    @include hoverFocus {
+      color: $white;
+      background: #949494;
+    }
+  }
+  &.btn-dark {
+    background: none;
+    color: #333;
+    border: 1px solid;
+    margin-top: 15px;
+    @include hoverFocus {
+      color: $white;
+      background: #333;
+    }
+  }
+
+  &.btn-clr-white {
+    color: $white;
+
+    @include hoverFocus {
+      background: $white;
+      color: $purple;
+    }
+  }
+  &.btn-underline {
+    border: 1px solid;
+  }
+  &.transparency {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

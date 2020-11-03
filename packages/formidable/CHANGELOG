@@ -1,0 +1,291 @@
+2.1.3
+Fixed typo in db.xml
+
+2.1.2
+Added results block (showing results in frontend)
+Added ability to change the form results within the Dashboard
+Added templates to the mailings
+Changed date element (error on validation)
+Fixed error on results when using customized results
+Fixed javascript reload after reviewing form submission
+Fixed empty cID when using reviews
+Fixed date element when empty show 1970/01/01
+Fixed MySQL error on update (table FormidableSavedSearches)
+
+2.1.1
+Added fix not loading multiple fileupload elements
+Changed clean template
+
+2.1
+Added filterByElementHandle and filterByElementID to the results model
+Fixed submitting twice with two forms on one page
+Fixed adding rows on certain forms
+Sort columns and rows
+Changed results model for better use
+Changed some javascript
+
+2.0.17
+Fixed "Array"-error on duplicate a complete form
+Using form data in subject of mail
+Added "request" values to default values of elements
+
+2.0.16
+Added "empty" and "not empty" to dependency conditions (thank you Patrick)
+Fixed some javascript in the dependencies
+
+2.0.15
+Name change of WYSIWYG element
+Fixed dependency rule set to "any value" not coming through in email (thank you Sarah)
+
+2.0.14
+Added languages to fileupload element
+Fixed error on duplicate a complete form
+
+2.0.13
+Added indexes on tables for better performance
+Fixed not loading fileupload in FF 33.1 en Chrome 39 (thanx Kristoffer)
+Fixed error on duplicate a form mailing
+
+2.0.12
+Fixed javascript error when multiple upload instances are configured
+Fixed form classes not copied on duplicate a form
+Fixed scrolling to top of page if form is in popup
+Added chunked upload functionality
+
+2.0.11
+Fixed showing label for "Hidden"-element (note: template change)
+Fixed show/hide layout and empty fields in mailing
+Fixed AnswerSetID in mailing 
+Fixed error on duplicating mailing
+
+2.0.10
+Fixed "no-thank-you-message" in "clean"-template
+Fixed duplicate result in results list even if value should be empty
+Fixed "getCollectionID()"-error when submitting
+Added functionality to set default value based on User- or Page Properties / Attributes
+Added functionality to save data after submission to User- or Page Properties / Attributes
+
+2.0.9
+Fixed not sending any mails to "Recipient"-selector
+
+2.0.8
+Fixed multiple independencies on an element (required if no show)
+Fixed major issue with validation of elements
+
+2.0.7
+Fixed shorten value "Textarea"-element in export
+Fixed custom class in form
+
+2.0.6
+Fixed error when duplicating entire form
+Fixed shorten value "Textarea"-element in export
+Fixed multiple independencies on an element (required if no show)
+Changed dialogs for elements, emails, layouts, etc...
+Fixed W3C Validator error on same ids.
+Fixed javascript error when adding block (when dependencies are used)
+Added template "bootstrap 3"
+
+2.0.5
+Fixed "Slider"-element default (minimal) value
+Changed the IP-request form the form
+Fixed specialchars from submission in message
+Added default C5 style to datepicker
+
+2.0.4
+Fix "Code"-element after updating C5 to 5.6.3
+Fixed getUserID() errors when submitting (5.6.3 issue)
+
+2.0.3
+Added scrollToTop on submit (thank you hissy)
+Added Japanese to Ajax Upload (thank you hissy)
+Added "Tags"-element
+Added date (is a valid date) validation for input and datepicker
+Fixed skipped "Address"-element in mail
+Fixed "strlen" error in validation
+Hide fields with dependencies on mail (if disabled or hidden)
+Fixed getUserID() errors when submitting (5.6.3 issue)
+
+2.0.2
+Added custom classes to "WYSIWYG"-element
+Added classes to parent element div of elements (views)
+Fixed use custom classes in columns
+Fixed error in duplicating dependencies
+Fixed some typos
+Fixed "To"-header in mail (some servers won't send mail unless there is a to)
+Removed event "on_formidable_validation"
+Added preview in dashboard
+
+2.0.1
+Fixed no text in "Paragraph"-element
+Fixed "javscript:;"-issue in columns (Safari error) 
+Fixed searching in element list
+Fixed 24/12 hour notation in "Time"-element
+Fixed element duplicate error
+Fixed MySQL-error on form list when no form is added
+Fixed "bootstrap"-template
+Fixed "clean"-template
+Fixed no-javascript when used in Stack
+Fixed translation issue if you use internationalization addon
+Fixed default sorting in results (submission date descending)
+Fixed default checked radio, checkbox, select and recipient selector
+Fixed error on duplicating and moving element
+Added "State" to "Address"-element
+Added dependency options to elements (beta)
+Added "save changes" when leaving page form properties without saving
+Added shorten-text in results to "Textarea" and "tinyMCE"-element
+Added option to discard empty fields and layout in message
+Added option to send mailing as cc or bcc
+Minor interface changes (better ui)
+
+2.0
+Beter User Interface
+Better MVC approach
+Resolved fileset remove error
+Fixed time format 24-hours
+Fixed some jquery issues
+Fixed error on scheduling date
+Fixed "Enter"-key error on textareas
+Changed view of individual result
+Changed "CC" to "BCC" in emails
+Added layout options
+Added "Reply-To" in mails
+Added advanced search options in results
+Added saved search options in results
+Added "Fullname"-element
+
+1.2.1
+Fixed serializing empty options in elements
+Fixed order in getting answersets of form
+
+1.2
+Fixed default value in date element
+Added default advanced content in date element
+Added more date formats
+Fixed default value in time element
+Changed order in element dialog (thank you Marty)
+Minor changes to upgrade usability
+Fixed showing all messages on multiple forms on page
+Fixed hiding other forms on page if one is submitted
+More jquery-friendly approach for redirection after submission
+Added placeholder plugin for non-HTML5 browsers
+Assigned "Enter/Return"-key to form submission (only on focus) 
+Disable submit when submitted
+Added "Please wait..." message while submitting
+Added loader while submitting
+Added messages when elements and mailings are saved, duplicated and/or deleted
+Added optional advanced data to mailings (browser, platform, page, user, etc....)
+Added scheduling feature (able to schedule when submissions are welcome)
+
+1.1.4
+Changed the "reply-to"...
+Fixed error in removing results on removing form
+Added event "on_formidable_review"
+Fixed error on "max_value"
+Fixed error multi-uploader in IE8 and Safari 6.0.5, FireFox 21, and Chrome 28 on Mac X 10.8.4
+Changes some features in automated job
+
+1.1.3
+Fixed datepicker custom months and days
+Fixed recipientselector validation on Email Address
+Added "results"-button in form edit page
+Added form name to "edit form"-button in results page
+Fixed showing form after submission
+
+1.1.2
+Fixed reply_to for default mailing
+Fixed send to recipient selector 
+Added CC to mailing logs
+
+1.1.1
+Added urlify and emailify in results
+Added "reset customized results" button in results
+Added "reply-to" in mailings
+Fixed minor js error when submitting
+Cleaned up some code in javascript
+Added events (on_formidable_validate, on_formidable_submit)
+
+1.1
+Added multiple fileupload element
+Added duplicate feature for forms
+Changed some css in results page
+Changed some css in view
+Fixed address validation
+Added translation for address selector
+Fixed "no results" in search where there should be results
+Fixed javascript error progress_bar jquery ui (v1.8.16)
+Fixed slider error when min/max values are not set right
+Fixed timeselector minor css
+Fixed javascript error while adding to stack
+Fixed redirect javascript error after submitting
+Reduced package size by 50%
+
+1.0
+Changed some help content in the dashboard wrapper
+Fixed error showing results where no form is created
+Changed line-height for radiobuttons in default view
+Fixed mask-javascript error on adding form to page
+Fixed phone element validation
+Added more info feature (browser, platform, screenres)
+Changed json to serialized datacollection. (fixes specialchars)
+Some translation changes
+Added edit form button in results
+Added edit form button in block
+Fixed style inheritage in edit block
+
+0.9.8
+Changed the __construct function in the block controller (thank you GregJoyce)
+Fixed the error on the collectionID (thank you GregJoyce)
+Fixed confirmation value error
+
+0.9.7
+Small bug fix default limitation text
+Small javascript fix (thank you GregJoyce)
+Fixed saving rating element (thank you GregJoyce)
+Added "hide label" checkbox so labels can be hidden in the form
+Added WYSIWYG and Code elements
+Reordered available elements list
+Changed width for default view to 100% (thank you tallacman)
+Fixed some redirection problems after session is destroyed (timed out)
+Fixed some validation errors in form properties
+Fixed error when trying to edit non-existing form
+Added ajax submission
+Fixed qTip2 on focus/blur
+
+0.9.6
+Added qTip2 as tooltip
+Changed some styles to qTip
+Added default limitation text (thank you mnakalay)
+Added placeholder to email address element (thank you mnakalay)
+Fixed possibility to end a fieldset before starting it (thank you mnakalay)
+
+0.9.5
+Added a new version for marketplace update.
+No changes made...
+
+0.9.4
+Fixed minor javascript issue (review button)
+Fixed move-cursor dashboard (css)
+Fixed error when inserting radiobuttons
+Some small css edits in blocks/formidable/view.css
+Fixed MySQL errors when saving specialchars
+Fixed tooltip on selectboxes
+Fixed empty result columns on first show
+Fixed major MySQL error in results page
+Fixed bug in time-selector element
+
+0.9.3
+Added limitations to the forms
+Fixed some t() issues (thank you goutnet)
+Fixed some typos (thank you goutnet)
+Added some comments to single_pages that are just there for redirecting... (thank you goutnet)
+Fixed error on results-page if there aren't any forms (thank you myTooq)
+
+0.9.2
+Fixed dropping tables when uninstalling addon
+
+0.9.1
+Fixed json_encode (implemented the json helper of C5)
+Fixed the use of eval in the captcha model 
+
+0.9.0
+Initial version (submitted to Concrete5 Marketplace)

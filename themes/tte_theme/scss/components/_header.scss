@@ -1,0 +1,504 @@
+// File Name: _header.scss
+// Description: global header styles
+
+.main-header {
+  background: transparent;
+
+  width: 100%;
+  padding: 0;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
+
+  @include transition(.3s ease);
+
+  @include breakpoint(767) {
+    background-color: $purple;
+
+    .nav_overlay {
+      display: none;
+    }
+  }
+
+  .col_left {
+    width: 16.666666666666664%;
+  }
+
+  .col_right {
+    width: 83.33333333333334%;
+    padding-left: 30px;
+  }
+
+  .col_left,
+  .col_right {
+     float: left;
+     min-height: 1px;
+     position: relative;
+
+     @include breakpoint(767) {
+       width: 50%;
+     }
+  }
+
+  &.alt {
+    background-color: $purple;
+
+    .nav_overlay {
+      display: none;
+    }
+  }
+
+  &.sticky {
+    top: 0;
+
+    background-color: $purple;
+
+    .nav_overlay {
+      display: none;
+    }
+
+    .other_links {
+      ul {
+        li {
+          a {
+            @include hoverFocus {
+              color: #a898be;
+              border-color: #a898be;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  .container {
+    position: relative;
+    z-index: 998;
+  }
+
+  .main_nav {
+    position: relative;
+    padding: 0;
+    float: left;
+
+    &.left {
+      @include breakpoint(767) {
+        display: none;
+      }
+    }
+
+    &.right {
+      @include breakpoint(767) {
+        float: right;
+      }
+    }
+
+  	>li {
+      display: inline-block;
+      padding: 0 10px;
+
+      height: 100px;
+      line-height: 100px;
+
+      @include breakpoint(1199) {
+        padding: 0 8px;
+
+        height: 80px;
+        line-height: 80px;
+      }
+
+      @include breakpoint(1100) {
+        padding: 0 6px;
+      }
+
+      @include breakpoint(767) {
+        height: 65px;
+        line-height: 65px;
+      }
+
+      >a {
+        position: relative;
+        display: block;
+
+        color: $white;
+        font-size: 18px;
+        font-family: $robotoRegular;
+        text-decoration: none;
+
+        span {
+          position: relative;
+          &::after {
+            content: '';
+            display: block;
+
+            width: 100%;
+            height: 1px;
+
+            background-color: $white;
+
+            position: absolute;
+            bottom: -6px;
+
+            opacity: 0;
+            visibility: hidden;
+          }
+        }
+
+
+        @include breakpoint(1300) {
+          font-size: 16px;
+        }
+
+        @include breakpoint(1199) {
+          font-size: 14px;
+        }
+
+        &:hover,
+        &.nav-selected,
+        &.nav-path-selected {
+          span {
+            &::after {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+
+        &.nav-selected,
+        &.nav-path-selected {
+          font-family: $robotoBold;
+        }
+      }
+
+      &.menu-hamburger {
+        display: none;
+
+        >a {
+          width: 30px;
+          height: 100%;
+           line-height: 100%;
+        }
+
+        @include breakpoint(1024) {
+          display: inline-block;
+          cursor: pointer;
+        }
+
+        .hamburger {
+          display: block;
+          position: absolute;
+
+          top: 50%;
+          @include transform(translate3d(0,-50%,0));
+
+          &::before,
+          &::after {
+            content: '';
+            display: block;
+
+            position: absolute;
+          }
+          &,
+          &::before,
+          &::after {
+            cursor: pointer;
+            border-radius: 0;
+
+            width: 30px;
+            height: 1px;
+
+            background: #fff;
+
+            @include transition(all 0.3s ease);
+          }
+
+          &::before {
+            top: -8px;
+          }
+
+          &::after {
+            bottom: -8px;
+          }
+
+          &.active {
+            background-color: transparent;
+            &::before,
+            &::after {
+              top: 0;
+            }
+
+            &::before {
+               @include transform(rotate(45deg));
+            }
+            &::after {
+              @include transform(rotate(-45deg));
+            }
+          }
+        }
+      }
+  	}
+  }
+}
+
+.nav_overlay {
+  width: 100%;
+  height: 200px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  background: rgba(0,0,0,.6); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#333333, rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#333333, rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#333333, rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#333333, rgba(0,0,0,0)); /* Standard syntax (must be last) */
+
+  @include breakpoint(767) {
+    height: 100px;
+  }
+}
+
+.header-logo {
+  display: block;
+
+  position: relative;
+  top: 10px;
+
+  @include breakpoint(767) {
+    top: 7px;
+  }
+
+  svg {
+    max-width: 145px;
+    max-height: 60px;
+
+    fill: white;
+
+    @include breakpoint(1199) {
+      max-height: 45px;
+    }
+    @include breakpoint(767) {
+      max-width: 100px;
+      max-height: 35px;
+    }
+  }
+}
+
+.other_links {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  z-index: 998;
+
+  border-bottom: 1px solid $white;
+  padding-bottom: 9px;
+  padding-right: 50px;
+
+  @include breakpoint(1199) {
+    padding-right: 30px;
+  }
+
+  @include breakpoint(1024) {
+    border: 0;
+
+    background-color: $white;
+    text-align: center;
+
+    width: 150px;
+    padding: 10px;
+
+    top: 100%;
+    right: 0;
+
+    opacity: 0;
+    visibility: hidden;
+
+    &.other_links_mobile {
+
+      &.active {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    &::before {
+      content: '';
+      display: block;
+
+      background-color: #fff;
+
+      width: 14px;
+      height: 14px;
+
+      position: absolute;
+      top: -7px;
+      right: 14px;
+      @include transform(rotate(45deg));
+    }
+  }
+  &.other_links_mobile {
+    display: none;
+
+    @include breakpoint(1024) {
+      display: block;
+    }
+  }
+
+
+  ul li {
+    display: inline-block;
+    margin: 0 8px;
+
+    @include breakpoint(1199) {
+      margin: 0 6px;
+    }
+
+    @include breakpoint(1024) {
+      display: block;
+      margin: 0;
+    }
+
+    &:first-child {
+      margin: 0;
+    }
+
+    a {
+      color: $white;
+      font-size: 14px;
+      text-decoration: none;
+
+      border-bottom: 1px solid transparent;
+      padding-bottom: 13px;
+      line-height: 24px;
+
+      @include breakpoint(1300) {
+        font-size: 12px;
+      }
+
+      @include breakpoint(1024) {
+        padding: 6px;
+        display: block;
+
+        color: $black;
+      }
+
+      @include hoverFocus {
+        color: rgb(190, 181, 204);
+
+        @include min-breakpoint(1025) {
+          border-color: rgb(190, 181, 204);
+        }
+      }
+    }
+
+    &.active {
+      a {
+        font-family: $robotoBold;
+      }
+    }
+  }
+}
+
+.sub_nav {
+  position: absolute;
+  bottom: -115px;
+  right: 0;
+  z-index: 99;
+
+  background: #7e7e7e;
+  padding: 30px 50px;
+
+  @include breakpoint(1024) {
+    padding: 20px 30px;
+  }
+
+  @include breakpoint(991) {
+    display: none;
+  }
+
+  >li {
+    display: inline-block;
+
+    padding: 0 18px;
+
+    @include breakpoint(1024) {
+      padding: 0 12px;
+    }
+
+    > a {
+      color: $white;
+      text-decoration: none;
+
+      padding: 0;
+
+      @include breakpoint(1024) {
+        font-size: 14px;
+      }
+
+      &.nav-selected,
+      &.nav-path-selected,
+      &:hover {
+        border-bottom: 1px solid $white;
+        padding-bottom: 6px;
+      }
+    }
+  }
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 997;
+
+    opacity: 0;
+    visibility: hidden;
+
+    background-color: $purple;
+
+    width: 100%;
+    height: 100%;
+
+    @include transition(opacity .3s ease);
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    ul {
+      padding-left: 20px;
+
+      &:first-child {
+        padding-top: 120px;
+        padding-bottom: 30px;
+
+        border-bottom: 1px solid rgba(255,255,255,.20);
+      }
+
+      &:last-child {
+        padding-top: 30px;
+      }
+      li {
+        margin-bottom: 10px;
+        a {
+          font-family: $robotoRegular;
+          font-size: 18px;
+          color: #FFFFFF;
+          letter-spacing: 0;
+        }
+
+        &.nav-selected,
+        &.nav-path-selected,
+        &.active {
+          a {
+            text-decoration: underline;
+          }
+         }
+      }
+    }
+}

@@ -1,0 +1,1542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Concrete5 Mailing List\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-25 11:39+0100\n"
+"PO-Revision-Date: 2013-02-25 11:54+0100\n"
+"Last-Translator: Torsten Silbermann <toddihh@gmx.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Users/tony/ConcreteCMS/concrete5-addons/trunk/web/"
+"packaged_blocks/tony_mailing_list/\n"
+"Language: de\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller.php:3 blocks/tony_mailing_list/add.php:2
+#: blocks/tony_mailing_list/controller.php:3
+#: blocks/tony_mailing_list/edit.php:2
+#: blocks/tony_mailing_list/form_setup_html.php:2
+#: blocks/tony_mailing_list/view.php:2 controllers/manage_subscriptions.php:3
+#: controllers/dashboard/mailing_list/controller.php:3
+#: controllers/dashboard/mailing_list/mailings.php:3
+#: controllers/dashboard/mailing_list/send.php:3
+#: controllers/dashboard/mailing_list/settings.php:3
+#: controllers/dashboard/mailing_list/subscribers.php:3
+#: models/tony_mailing_list_mailing.php:3 models/tony_mailing_list_stats.php:3
+#: single_pages/manage_subscriptions.php:2
+#: single_pages/dashboard/mailing_list/mailings.php:2
+#: single_pages/dashboard/mailing_list/send.php:2
+#: single_pages/dashboard/mailing_list/settings.php:2
+#: single_pages/dashboard/mailing_list/subscribers.php:2
+msgid "Access Denied."
+msgstr "Zugriff verweigert."
+
+#: controller.php:28
+msgid "Send mail to people in any group, and manage subscriptions"
+msgstr "E-Mails an Personen in allen Gruppen senden &amp; Abos verwalten"
+
+#: controller.php:32 controller.php:74 controller.php:121
+#: blocks/tony_mailing_list/add.php:4
+msgid "Mailing List"
+msgstr "Mailings"
+
+#: controller.php:60
+msgid "Manage Subscriptions"
+msgstr "Aboverwaltung"
+
+#: controller.php:60
+msgid "Unsubscribe from mailing list groups"
+msgstr "Aus einem Verteiler austragen"
+
+#: controller.php:65
+msgid "Error: /manage_subscriptions page not created"
+msgstr "Fehler: /manage_subscriptions Seite nicht erstellt"
+
+#: controller.php:74
+msgid "Send emails to groups & manage mailings"
+msgstr "E-Mails an Gruppen senden &amp; Mailings verwalten"
+
+#: controller.php:75
+msgid "Error: /dashboard/mailing_list page not created"
+msgstr "Fehler: /dashboard/maling_list Seite nicht erstellt"
+
+#: controller.php:83
+msgid "Create"
+msgstr "Verfassen"
+
+#: controller.php:83
+msgid "Create & edit mailings"
+msgstr "Mailings verfassen &amp; bearbeiten"
+
+#: controller.php:84
+msgid "Error: /dashboard/mailing_list/send page not created"
+msgstr "Fehler: /dashboard/mailing_list/send Seite nicht erstellt"
+
+#: controller.php:92
+msgid "Mailings"
+msgstr "Mailingverwaltung"
+
+#: controller.php:92
+msgid "View sent emails"
+msgstr "Gesendete E-Mails anzeigen"
+
+#: controller.php:93
+msgid "Error: /dashboard/mailing_list/mailings page not created"
+msgstr "Fehler: /dashboard/mailing_list/mailings Seite nicht erstellt"
+
+#: controller.php:101 blocks/tony_mailing_list/form_setup_html.php:27
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: controller.php:101
+msgid "Configure the mailings list and subscriptions"
+msgstr "Mailing-Liste und Abos konfigurieren"
+
+#: controller.php:102
+msgid "Error: /dashboard/mailing_list/settings page not created"
+msgstr "Fehler: /dashboard/mailing_list/settings Seite nicht erstellt"
+
+#: controller.php:110 single_pages/dashboard/mailing_list/subscribers.php:36
+#: single_pages/dashboard/mailing_list/subscribers.php:38
+msgid "Manage Subscribers"
+msgstr "Abonnentenverwaltung"
+
+#: controller.php:110
+msgid "Manager users"
+msgstr "Benutzerverwaltung"
+
+#: controller.php:111
+msgid "Error: /dashboard/mailing_list/subscribers page not created"
+msgstr "Fehler: /dashboard/mailing_list/subscribers Seite nicht erstellt"
+
+#: controller.php:124 controller.php:129 controller.php:134 controller.php:139
+msgid "Mailing List Group"
+msgstr "Verteiler"
+
+#: controller.php:126
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: controller.php:131
+msgid "Specials & Promotions"
+msgstr "Specials &amp; Promotions"
+
+#: controller.php:136
+msgid "Updates"
+msgstr "Aktualisierungen"
+
+#: controller.php:147
+msgid "Never send mailing list emails"
+msgstr "Mailing-List E-Mails nie senden"
+
+#: controller.php:153
+msgid "Opt-Out of Group Mailings"
+msgstr "Aus Verteiler austragen"
+
+#: controller.php:159
+msgid "Last Mailing List Unsubscription Date"
+msgstr "Abmeldedatum der letzten Maillingliste"
+
+#: controller.php:166
+msgid "Mailing List Unsubscribe Info"
+msgstr "Infotext zum Austragen aus dem Verteiler"
+
+#: blocks/tony_mailing_list/add.php:13
+msgid "Join Mailing List"
+msgstr "In einen Verteiler eintragen"
+
+#: blocks/tony_mailing_list/add.php:14
+msgid "Subscribe to be updated on announcements, news, and info."
+msgstr ""
+"Lassen Sie sich über Ankündigungen, Aktionen und Neuigkeiten informieren."
+
+#: blocks/tony_mailing_list/add.php:15
+msgid "Thanks for subscribing!"
+msgstr "Vielen Dank!"
+
+#: blocks/tony_mailing_list/controller.php:23
+msgid "Allow people to subscribe/unsubscribe from mailing list"
+msgstr "Eintragen/Austragen aus Verteilern erlauben"
+
+#: blocks/tony_mailing_list/controller.php:27
+msgid "Mailing Subscriptions"
+msgstr "Mailing Abonnements"
+
+#: blocks/tony_mailing_list/controller.php:132
+msgid "Please login to subscribe"
+msgstr "Zum abonnieren bitte einloggen."
+
+#: blocks/tony_mailing_list/controller.php:135
+#: controllers/dashboard/mailing_list/subscribers.php:343
+#: models/tony_mailing_list.php:445
+msgid "Invalid email address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: blocks/tony_mailing_list/controller.php:138
+msgid "Please complete all required fields."
+msgstr "Bitte alle benötigten Felder ausfüllen"
+
+#: blocks/tony_mailing_list/controller.php:173
+#: blocks/tony_mailing_list/form_setup_html.php:92
+#: blocks/tony_mailing_list/view.php:91
+#: controllers/manage_subscriptions.php:62
+#: controllers/manage_subscriptions.php:96
+#: controllers/manage_subscriptions.php:184 models/tony_mailing_list.php:95
+#: single_pages/manage_subscriptions.php:107
+#: single_pages/dashboard/mailing_list/settings.php:120
+msgid "Administrators"
+msgstr "Administratoren"
+
+#: blocks/tony_mailing_list/controller.php:222
+msgid "Oops, no groups were selected."
+msgstr "Oops, es ist kein E-Mail-Verteiler ausgewählt."
+
+#: blocks/tony_mailing_list/controller.php:233
+msgid ""
+"Invalid email address set for the global variable "
+"MAILING_LIST_SUBSCRIPTIONS_EMAIL: "
+msgstr ""
+"Falsche E-Mail-Adresse gesetzt für die globale Variable "
+"MAILING_LIST_SUBSCRIPTIONS_EMAIL:"
+
+#: blocks/tony_mailing_list/controller.php:241
+msgid "To subscribe to the groups \""
+msgstr "Sie haben sich in folgende(n) E-Mail-Verteiler eingetragen: \""
+
+#: blocks/tony_mailing_list/controller.php:242
+#: blocks/tony_mailing_list/controller.php:261
+msgid "visit the link:"
+msgstr "Zum Bestätigen folgenden Link klicken:"
+
+#: blocks/tony_mailing_list/controller.php:247
+msgid "Subscribe to mailing list"
+msgstr "Ihr Eintrag in einen E-Mail-Verteiler"
+
+#: blocks/tony_mailing_list/controller.php:260
+msgid "To unsubscribe from the groups \""
+msgstr "Sie haben sich aus Verteiler(n) ausgetragen:  \""
+
+#: blocks/tony_mailing_list/controller.php:266
+msgid "Unsubscribe from mailing list"
+msgstr "Aus E-Mail-Verteiler austragen"
+
+#: blocks/tony_mailing_list/form_setup_html.php:28
+msgid "User Attributes"
+msgstr "Benutzerattribute"
+
+#: blocks/tony_mailing_list/form_setup_html.php:35
+msgid "Title"
+msgstr "Titel"
+
+#: blocks/tony_mailing_list/form_setup_html.php:38
+msgid "Default"
+msgstr "Standard"
+
+#: blocks/tony_mailing_list/form_setup_html.php:39
+msgid "Bold"
+msgstr "Fett"
+
+#: blocks/tony_mailing_list/form_setup_html.php:40
+msgid "H1"
+msgstr "H1"
+
+#: blocks/tony_mailing_list/form_setup_html.php:41
+msgid "H2"
+msgstr "H2"
+
+#: blocks/tony_mailing_list/form_setup_html.php:42
+msgid "H3"
+msgstr "H3"
+
+#: blocks/tony_mailing_list/form_setup_html.php:43
+msgid "H4"
+msgstr "H4"
+
+#: blocks/tony_mailing_list/form_setup_html.php:44
+msgid "H5"
+msgstr "H5"
+
+#: blocks/tony_mailing_list/form_setup_html.php:50
+msgid "Signup Text"
+msgstr "Anmeldungstext"
+
+#: blocks/tony_mailing_list/form_setup_html.php:56
+msgid "Successful Subscription Message"
+msgstr "Mitteilung nach erfolgreichem Anmelden:"
+
+#: blocks/tony_mailing_list/form_setup_html.php:64
+msgid "Choose Mailing List Group(s)"
+msgstr "Verteiler wählen"
+
+#: blocks/tony_mailing_list/form_setup_html.php:105
+msgid "No groups are enabled."
+msgstr "Es sind keine Verteiler aktiviert."
+
+#: blocks/tony_mailing_list/form_setup_html.php:109
+#, php-format
+msgid ""
+"These are the group(s) the user will enter/exit when subscribing/"
+"unsubscribing. Add more through the %sMailing List Settings%s page."
+msgstr ""
+"Diese Gruppe(n) betritt/verlässt der Benutzer wenn er sie abonniert/"
+"abbestellt. Sie können weitere Gruppen unter  %sMailing Einstellungen%s "
+"hinzufügen."
+
+#: blocks/tony_mailing_list/form_setup_html.php:113
+msgid "Show mailing list group checkboxes"
+msgstr "Verteiler-CheckBoxen anzeigen"
+
+#: blocks/tony_mailing_list/form_setup_html.php:121
+msgid "Let Unregistered Users Subscribe"
+msgstr "Unregistrierten Benutzer abonnieren erlauben"
+
+#: blocks/tony_mailing_list/form_setup_html.php:123
+msgid "Yes"
+msgstr "Ja"
+
+#: blocks/tony_mailing_list/form_setup_html.php:127
+msgid "Require email validation check for unregistered users"
+msgstr "E-Mail Bestätigung für unregistrierte Benutzer erforderlich"
+
+#: blocks/tony_mailing_list/form_setup_html.php:137
+msgid "Do you want to collect any of these attributes from subscribers?"
+msgstr "Wollen Sie Abonnenten-Attribute abfragen?"
+
+#: blocks/tony_mailing_list/form_setup_html.php:150
+msgid "Make attributes required fields"
+msgstr "Attribute als Pflichtfelder"
+
+#: blocks/tony_mailing_list/view.php:37
+msgid ""
+"To unsubscribe from the mailing lists you left unchecked, please check your "
+"email inbox."
+msgstr ""
+"Um sich aus dem abgewählten E-mail-Verteiler auszutragen, kontrollieren Sie "
+"bitte Ihr E-Mail-Postfach."
+
+#: blocks/tony_mailing_list/view.php:43
+msgid ""
+"To confirm your email address, please check your email inbox, and click the "
+"link you have been sent"
+msgstr ""
+"Um Ihre E-Mail-Adresse zu bestätigen, überprüfen Sie bitte Ihre Posteingang "
+"und klicken Sie auf den Link in der Bestätigungsmail.Falls Sie keine E-Mail "
+"erhalten haben, überprüfen Sie bitte auch Ihr Spam-Postfach."
+
+#: blocks/tony_mailing_list/view.php:52
+#, php-format
+msgid "Please <a href=\"%s\">login</a> first to subscribe"
+msgstr "Bitte zum abonnieren zuerst <a href=\"%s\">anmelden</a> "
+
+#: blocks/tony_mailing_list/view.php:70
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: blocks/tony_mailing_list/view.php:70 blocks/tony_mailing_list/view.php:111
+#: blocks/tony_mailing_list/view.php:127
+msgid "*"
+msgstr "*"
+
+#: blocks/tony_mailing_list/view.php:123
+msgid "Sign-up &raquo;"
+msgstr "Absenden"
+
+#: blocks/tony_mailing_list/view.php:127
+msgid "Required Fields"
+msgstr "Pflichtfeld"
+
+#: controllers/dashboard/mailing_list/mailings.php:32
+#: controllers/dashboard/mailing_list/mailings.php:50
+msgid "A mailing with that id was not found"
+msgstr "Ein Mailing mit dieser ID wurde nicht gefunden"
+
+#: controllers/dashboard/mailing_list/mailings.php:100
+#: controllers/dashboard/mailing_list/send.php:48
+msgid ""
+"You don't have permission to edit this mailing. You must either be in the "
+"administrators group or be the sender."
+msgstr ""
+"Sie haben keine Berechtigungen dieses Mailing zu bearbeiten. Dies ist nur "
+"Administratoren oder dem Absender selbst erlaubt."
+
+#: controllers/dashboard/mailing_list/send.php:43
+#: single_pages/dashboard/mailing_list/mailings.php:196
+msgid "Mailing not found."
+msgstr "Mailing nicht gefunden."
+
+#: controllers/dashboard/mailing_list/send.php:57
+msgid ""
+"Sorry, but you can't edit mailings that are no longer pending and are not "
+"drafts."
+msgstr ""
+"Sie können leider keine E-Mails bearbeiten, die sich nicht im Ausgang "
+"befinden oder als Entwurf gespeichert sind."
+
+#: controllers/dashboard/mailing_list/send.php:67
+msgid "No preview for this mailing was found"
+msgstr "Für diese Mailings wurde keine Vorschau gefunden."
+
+#: controllers/dashboard/mailing_list/send.php:96
+msgid ""
+"You must select at least one group, or select the \"Registered Users\" option"
+msgstr "Sie müssen mindestens einen Verteiler wählen."
+
+#: controllers/dashboard/mailing_list/send.php:103
+#: controllers/dashboard/mailing_list/send.php:231
+#: controllers/dashboard/mailing_list/send.php:383
+msgid "Invalid Recipient Setting"
+msgstr "Falsche Empfängereinstellungen"
+
+#: controllers/dashboard/mailing_list/send.php:115
+msgid "Please specify who this mailing is from"
+msgstr "Bitte geben Sie den Absender des Mailings an."
+
+#: controllers/dashboard/mailing_list/send.php:118
+msgid "Invalid sender email address"
+msgstr "Ungültige E-Mail-Adresse angegeben."
+
+#: controllers/dashboard/mailing_list/send.php:136
+msgid "You must include a subject"
+msgstr "Sie müssen einen Betreff angeben."
+
+#: controllers/dashboard/mailing_list/send.php:141
+msgid "You must include some body text"
+msgstr "Sie müssen noch eine Nachricht eingeben."
+
+#: controllers/dashboard/mailing_list/send.php:145
+msgid "A mailing with same subject and body has already been created!"
+msgstr ""
+"Es wurde bereits ein Mailing mit diesem Betreff, dieser Nachricht erstellt."
+
+#: controllers/dashboard/mailing_list/send.php:222
+#: controllers/dashboard/mailing_list/send.php:375
+msgid "You must select at least one group"
+msgstr "Sie müssen mindestens einen Verteiler wählen."
+
+#: controllers/dashboard/mailing_list/send.php:228
+msgid "Mailings to all users is currently disabled."
+msgstr "Mailings an alle Benutzer ist derzeit deaktiviert."
+
+#: controllers/dashboard/mailing_list/send.php:238
+msgid "No users found."
+msgstr "Kein Benutzer gefunden"
+
+#: controllers/dashboard/mailing_list/send.php:336
+#: controllers/dashboard/mailing_list/send.php:429
+#: controllers/dashboard/mailing_list/subscribers.php:433
+#: single_pages/dashboard/mailing_list/subscribers.php:221
+msgid "Email"
+msgstr "E-Mail"
+
+#: controllers/dashboard/mailing_list/send.php:336
+msgid "User ID"
+msgstr "Benutzer ID"
+
+#: controllers/dashboard/mailing_list/send.php:336
+msgid "Unregistered User ID"
+msgstr "Unregistrierte Benutzer ID"
+
+#: controllers/dashboard/mailing_list/send.php:404
+msgid "Close Window [X]"
+msgstr "Fenster schliessen [X]"
+
+#: controllers/dashboard/mailing_list/send.php:404
+msgid "Changes Saved!"
+msgstr "Änderungen gespeichert!"
+
+#: controllers/dashboard/mailing_list/send.php:407
+msgid ""
+"To insert user attributes (first name, last name, etc) into your mailings, "
+"type the attribute handle between two percentage signs (shown below) into "
+"the body of your mailing. "
+msgstr ""
+"Wenn Sie Benutzerattribute wie Vorname und Nachname einfügen möchten, "
+"benutzen Sie bitte das Attributehandle und setzen es zwischen zwei "
+"Prozentzeichen (siehe unten)."
+
+#: controllers/dashboard/mailing_list/send.php:408
+msgid ""
+"You can also enter default values to use if there is no value for a "
+"particular user. "
+msgstr ""
+"Falls keine benutzerspezifischen Werte existieren, können auch Standardwerte "
+"eingegeben werden."
+
+#: controllers/dashboard/mailing_list/send.php:409
+#, php-format
+msgid ""
+"To add new user attributes, visit the %susers section%s of the dashboard."
+msgstr ""
+"Weitere Attribute können in der Verwaltung unter %sBenutzerattribute%s "
+"hinzugefügt werden"
+
+#: controllers/dashboard/mailing_list/send.php:436
+msgid "User Name"
+msgstr "Benutzername"
+
+#: controllers/dashboard/mailing_list/send.php:443
+msgid "Date Stamp"
+msgstr "Erstellungsdatum"
+
+#: controllers/dashboard/mailing_list/send.php:455
+msgid "Save"
+msgstr "Speichern"
+
+#: controllers/dashboard/mailing_list/send.php:456
+msgid "Close"
+msgstr "Schliessen"
+
+#: controllers/dashboard/mailing_list/settings.php:52
+msgid "The max execution time must be larger than the pause time."
+msgstr ""
+"Die maximale Ausführungszeit muss größer sein als die Pause dazwischen sein."
+
+#: controllers/dashboard/mailing_list/settings.php:56
+msgid "Invalid bounce-back email address"
+msgstr "Ungültige Rücksende-E-Mail-Adresse"
+
+#: controllers/dashboard/mailing_list/subscribers.php:105
+#: controllers/dashboard/mailing_list/subscribers.php:330
+msgid "You must agree that you're not using this for spam."
+msgstr ""
+"Bestätigen Sie, dass sie dieses Add-On nicht zum Versenden von Spam-E-Mails "
+"benutzen."
+
+#: controllers/dashboard/mailing_list/subscribers.php:108
+msgid "Error: Each of your columns must be unique or ignored."
+msgstr "Fehler: Jede nicht eindeutige Spalte wird ignoriert."
+
+#: controllers/dashboard/mailing_list/subscribers.php:111
+msgid "Please select a group"
+msgstr "Bitte einen Verteiler wählen"
+
+#: controllers/dashboard/mailing_list/subscribers.php:114
+msgid "Error: File not found. Please try again"
+msgstr "Fehler: Datei nicht gefunden. Bitte versuchen Sie es erneut."
+
+#: controllers/dashboard/mailing_list/subscribers.php:186
+msgid "Error: Your file must be in .csv format."
+msgstr "Fehler: Ihre Datei muss im CSV-Format vorliegen."
+
+#: controllers/dashboard/mailing_list/subscribers.php:326
+msgid "Are you subscribing or unsubscribing this user?"
+msgstr "Bitte \"Eintragen\" oder \"Austragen\" wählen!"
+
+#: controllers/dashboard/mailing_list/subscribers.php:341
+msgid "Invalid mailing list group"
+msgstr "Ungültiger Verteiler"
+
+#: controllers/dashboard/mailing_list/subscribers.php:408
+msgid "Subscriber not found"
+msgstr "Abonnent nicht gefunden"
+
+#: controllers/dashboard/mailing_list/subscribers.php:435
+#: single_pages/dashboard/mailing_list/mailings.php:350
+#: single_pages/dashboard/mailing_list/mailings.php:459
+msgid "Created"
+msgstr "Erstellt"
+
+#: controllers/dashboard/mailing_list/subscribers.php:435
+msgid "F j, Y, g:i a T"
+msgstr "F j, Y, g:i a T"
+
+#: controllers/dashboard/mailing_list/subscribers.php:439
+msgid "Groups"
+msgstr "Gruppen"
+
+#: models/tony_mailing_list.php:453
+msgid "Email already exists"
+msgstr "Die E-Mail existiert bereits."
+
+#: models/tony_mailing_list_mailing.php:239
+msgid "Image"
+msgstr "Bild"
+
+#: models/tony_mailing_list_mailing.php:481
+#: models/tony_mailing_list_mailing.php:540
+msgid "Send process is running"
+msgstr "Senden läuft"
+
+#: models/tony_mailing_list_mailing.php:564
+msgid "Send process ran into max execution time limit."
+msgstr "Das Zeitlimit des Sendeprozesses wurde überschritten."
+
+#: models/tony_mailing_list_mailing.php:639
+msgid "(Unsubscribe disabled when sending to site administrators)"
+msgstr "(Kündigen ist beim Senden an Administratoren deaktiviert)"
+
+#: models/tony_mailing_list_mailing.php:642
+msgid "You may unsubscribe from this mailing list by visiting this link:\r\n"
+msgstr ""
+"Um sich aus dem Verteiler auszutragen, klicken Sie bitte folgenden Link:\r\n"
+
+#: models/tony_mailing_list_mailing.php:643
+#, php-format
+msgid "You may %sunsubscribe%s from this mailing list at any time.\r\n"
+msgstr "Sie können sich jederzeit aus dem Verteiler %saustragen%s.\r\n"
+
+#: models/tony_mailing_list_mailing.php:649
+msgid ""
+"You may unsubscribe from future mailings from this site by visiting this "
+"link:\r\n"
+msgstr ""
+"Wenn Si ezukünftig keine E-Mails mehr erhalten wollen, klicken Sie bitte "
+"folgenden Link:\r\n"
+
+#: models/tony_mailing_list_mailing.php:650
+#, php-format
+msgid ""
+"You may %sunsubscribe%s from future mailings from this site at any time.\r\n"
+msgstr ""
+"Sie können sich %shier austragen%s, um zukünftig keine E-Mails mehr von "
+"dieser Website zu bekommen.\r\n"
+
+#: models/tony_mailing_list_mailing.php:696
+msgid ""
+"Unknown php mail() error.  Please try switching your concrete site to use "
+"SMTP mail."
+msgstr ""
+"Unbekannter php mail() Fehler. Bitte versuchen Seite auf SMTP-Mail "
+"umzustellen."
+
+#: models/tony_mailing_list_mailing.php:700
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr "Mail Fehler aufgetreten, E-Mail konnte nicht gesendet werden:"
+
+#: models/tony_mailing_list_mailing.php:704
+#: models/tony_mailing_list_mailing.php:734
+msgid "Template Used"
+msgstr "Benutzte Vorlage"
+
+#: models/tony_mailing_list_mailing.php:705
+#: models/tony_mailing_list_mailing.php:735
+#: single_pages/dashboard/mailing_list/mailings.php:321
+#: single_pages/dashboard/mailing_list/mailings.php:455
+msgid "To"
+msgstr "An"
+
+#: models/tony_mailing_list_mailing.php:706
+#: models/tony_mailing_list_mailing.php:736
+msgid "From"
+msgstr "Von"
+
+#: models/tony_mailing_list_mailing.php:708
+#: models/tony_mailing_list_mailing.php:737
+#: single_pages/dashboard/mailing_list/mailings.php:362
+#: single_pages/dashboard/mailing_list/mailings.php:454
+msgid "Subject"
+msgstr "Betreff"
+
+#: models/tony_mailing_list_mailing.php:709
+#: models/tony_mailing_list_mailing.php:738
+msgid "Body"
+msgstr "Nachricht"
+
+#: models/tony_mailing_list_mailing.php:730
+msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+msgstr "E-MAILS SIND ANGESCHALTET. DIESE E-MAIL WURDE VERSENDET AN mail()"
+
+#: models/tony_mailing_list_mailing.php:732
+msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+msgstr ""
+"E-MAILS SIND AUSGESCHALTET. DIESE E-MAIL WURDE GESPEICHERT ABER NICHT "
+"VERSENDET"
+
+#: models/tony_mailing_list_mailing.php:784
+msgid "Send process crashed. Unknown error."
+msgstr "Unbekannter Fehler. Das Senden ist fehlgeschlagen."
+
+#: models/tony_mailing_list_mailing.php:790
+msgid ""
+"Invalid mailing-list mailing status code, in TonyMailingListMailing::"
+"updateStatus()"
+msgstr "Ungültiger Code in TonyMailingListMailing::updateStatus()"
+
+#: models/tony_mailing_list_stats.php:58
+#: models/tony_mailing_list_stats.php:148
+msgid "mailing not found"
+msgstr "Mailing nicht gefunden."
+
+#: models/tony_mailing_list_stats.php:141
+msgid "Invalid mailing or user ids"
+msgstr "Mailing oder Benutzer ID's ungültig"
+
+#: models/tony_mailing_list_stats.php:158
+msgid "unsubscribed user already tracked"
+msgstr "Ausgetragener Benutzer wurde bereits efasst"
+
+#: models/tony_mailing_list_stats.php:161
+msgid "unsubscribed non-registered user already tracked"
+msgstr "Ausgetragener, unregistrierter Benutzer wurde bereits erfasst"
+
+#: models/tony_mailing_list_stats.php:183
+msgid "user not in mailing"
+msgstr "Benutzer befindet sich nicht im Mailing"
+
+#: models/tony_mailing_list_stats.php:195
+msgid "unregistered user not in mailing"
+msgstr "Unregistrierter Benutzer befindet sich nicht im Mailing"
+
+#: models/tony_mailing_list_stats.php:204
+msgid "user not found"
+msgstr "Benutzer nicht gefunden"
+
+#: models/tony_mailing_list_stats.php:217
+msgid "Viewed Only"
+msgstr "Gelesen"
+
+#: models/tony_mailing_list_stats.php:217
+#: single_pages/dashboard/mailing_list/mailings.php:458
+msgid "Click-Thrus"
+msgstr "Angeklickt"
+
+#: models/tony_mailing_list_stats.php:217
+#: single_pages/dashboard/mailing_list/subscribers.php:131
+msgid "Unsubscribed"
+msgstr "Abgemeldet"
+
+#: models/tony_mailing_list_stats.php:217
+msgid "Unopened*"
+msgstr "Ungelesen*"
+
+#: single_pages/manage_subscriptions.php:8
+msgid ""
+"Are you sure you want to permanently unsubscribe from all future mailings "
+"from this site?"
+msgstr ""
+"Sind Sie sicher, dass Sie alle zukünftigen E-Mails von dieser Webseite "
+"abbestellen möchten?"
+
+#: single_pages/manage_subscriptions.php:36
+msgid "Subscribe to Mailing List"
+msgstr "Ihr Eintrag in einen E-Mail-Verteiler"
+
+#: single_pages/manage_subscriptions.php:36
+msgid "Unsubscribe from Mailing List"
+msgstr "Aus E-Mail-Verteiler austragen"
+
+#: single_pages/manage_subscriptions.php:43
+msgid "You have been subscribed to this mailing list. "
+msgstr "Eintrag erfolgreich ausgeführt. Vielen Dank."
+
+#: single_pages/manage_subscriptions.php:46
+#: single_pages/manage_subscriptions.php:56
+msgid "Return to Homepage"
+msgstr "Zurück zur Startseite"
+
+#: single_pages/manage_subscriptions.php:53
+msgid "You have been unsubscribed. "
+msgstr "Sie haben sich ausgetragen."
+
+#: single_pages/manage_subscriptions.php:64
+msgid ""
+"To unsubscribe, please click the unsubscribe link from the bottom of a "
+"mailing list email."
+msgstr ""
+"Um das Abo zu kündigen, klicken Sie bitte auf den Link am Ende einer "
+"abonnierten E-Mail."
+
+#: single_pages/manage_subscriptions.php:68
+msgid "You must select at least one mailing list group."
+msgstr "Sie müssen mindestens einen Verteiler wählen."
+
+#: single_pages/manage_subscriptions.php:72
+msgid "Have you already unsubscribed? The validation token is invalid. "
+msgstr "Sind Sie bereits abgemeldet? Die Überprüfung ist fehlgeschlagen."
+
+#: single_pages/manage_subscriptions.php:92
+msgid ""
+"To subscribe to this mailing list, just click the subscribe button below."
+msgstr "Um den Vorgang abzuschließen, klicken Sie bitte auf Bestätigen."
+
+#: single_pages/manage_subscriptions.php:100
+msgid ""
+"Click the checkbox next to each mailing list you want to unsubscribe from: "
+msgstr ""
+"Bitte wählen Sie die E-Mail-Verteiler, aus denen Sie sich austragen möchten:"
+
+#: single_pages/manage_subscriptions.php:114
+msgid "Unsubscribe from"
+msgstr "Kündigen von"
+
+#: single_pages/manage_subscriptions.php:116
+msgid "Opt-out of mailings from "
+msgstr "Austragen aus Mailings von"
+
+#: single_pages/manage_subscriptions.php:118
+msgid "\""
+msgstr "\""
+
+#: single_pages/manage_subscriptions.php:126
+msgid "Unsubscribe me permanently from all future mailings from this site."
+msgstr "Ich möchte generell keine E-Mails mehr von dieser Website empfangen."
+
+#: single_pages/manage_subscriptions.php:136
+#: single_pages/dashboard/mailing_list/send.php:337
+msgid "&laquo; Cancel"
+msgstr "Abbrechen"
+
+#: single_pages/manage_subscriptions.php:137
+msgid "Subscribe &raquo;"
+msgstr "Bestätigen &raquo;"
+
+#: single_pages/manage_subscriptions.php:137
+msgid "Unsubscribe &raquo;"
+msgstr "Austragen"
+
+#: single_pages/dashboard/mailing_list/mailings.php:75
+msgid "Running"
+msgstr "Läuft"
+
+#: single_pages/dashboard/mailing_list/mailings.php:122
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "Möchten Sie dieses Mailing wirklich löschen?"
+
+#: single_pages/dashboard/mailing_list/mailings.php:178
+#: single_pages/dashboard/mailing_list/mailings.php:180
+msgid "Review Your Mailings"
+msgstr "Mailings verwalten"
+
+#: single_pages/dashboard/mailing_list/mailings.php:200
+#: single_pages/dashboard/mailing_list/mailings.php:419
+msgid "&laquo; View All Mailings"
+msgstr "Zurück zur Übersicht"
+
+#: single_pages/dashboard/mailing_list/mailings.php:212
+#, php-format
+msgid ""
+"Your mailing was successfully saved, and the send process has been started "
+"for %s users."
+msgstr ""
+"Das Mailing wurde erfolgreich gespeichert und wird an  %s  Empfänger "
+"gesendet."
+
+#: single_pages/dashboard/mailing_list/mailings.php:214
+msgid ""
+"Your mailing was successfully saved, but the send process has not been "
+"started!"
+msgstr "Das Mailing wurde erfolgreich gespeichert, aber nicht versendet."
+
+#: single_pages/dashboard/mailing_list/mailings.php:215
+msgid "Initiate the send process, click the \"Start\" button below"
+msgstr "Auf \"Start\" klicken, um den Sendevorgang zu starten."
+
+#: single_pages/dashboard/mailing_list/mailings.php:217
+#: single_pages/dashboard/mailing_list/send.php:104
+#: single_pages/dashboard/mailing_list/settings.php:77
+msgid "Changes Saved"
+msgstr "Änderungen gespeichert"
+
+#: single_pages/dashboard/mailing_list/mailings.php:225
+#: single_pages/dashboard/mailing_list/mailings.php:456
+msgid "Status"
+msgstr "Status"
+
+#: single_pages/dashboard/mailing_list/mailings.php:231
+msgid "Resume &raquo;"
+msgstr "Fortsetzen »"
+
+#: single_pages/dashboard/mailing_list/mailings.php:233
+msgid "Start &raquo;"
+msgstr "Start"
+
+#: single_pages/dashboard/mailing_list/mailings.php:238
+#: single_pages/dashboard/mailing_list/mailings.php:408
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: single_pages/dashboard/mailing_list/mailings.php:250
+msgid ""
+"Warning: since cURL is not installed on your server the send process may "
+"take a very long time if you are sending thousands of emails."
+msgstr ""
+"Achtung: cURL ist nicht auf Ihrem Server installiert. Wenn Sie mehrere "
+"tausend E-Mails senden wollen, wird dies sehr lange dauern."
+
+#: single_pages/dashboard/mailing_list/mailings.php:332
+#: single_pages/dashboard/mailing_list/mailings.php:481
+msgid "Registered users"
+msgstr "Registrierte Benutzer"
+
+#: single_pages/dashboard/mailing_list/mailings.php:335
+#, php-format
+msgid "(%s recipients, %s sent, %s <a href=\"%s\">failed</a>)"
+msgstr "(%s Empfänger, %s gesendet, %s <a href=\"%s\">abgebrochen</a>)"
+
+#: single_pages/dashboard/mailing_list/mailings.php:342
+msgid "Sender's Email"
+msgstr "Absender E-Mail"
+
+#: single_pages/dashboard/mailing_list/mailings.php:346
+msgid "Sender's Name"
+msgstr "Name des Absenders"
+
+#: single_pages/dashboard/mailing_list/mailings.php:355
+#: single_pages/dashboard/mailing_list/mailings.php:510
+msgid "M d, Y g:ia"
+msgstr "d.n.Y G:i"
+
+#: single_pages/dashboard/mailing_list/mailings.php:357
+#: single_pages/dashboard/mailing_list/mailings.php:512
+msgid "by"
+msgstr "von"
+
+#: single_pages/dashboard/mailing_list/mailings.php:366
+msgid "HTML Version"
+msgstr "HTML-Version"
+
+#: single_pages/dashboard/mailing_list/mailings.php:372
+msgid "Plain Text Version"
+msgstr "Textversion"
+
+#: single_pages/dashboard/mailing_list/mailings.php:386
+msgid "Attachments"
+msgstr "Anhang"
+
+#: single_pages/dashboard/mailing_list/mailings.php:405
+msgid "Use As Template"
+msgstr "Für neues Mailing verwenden"
+
+#: single_pages/dashboard/mailing_list/mailings.php:414
+msgid "Delete"
+msgstr "Löschen"
+
+#: single_pages/dashboard/mailing_list/mailings.php:426
+msgid ""
+"* Note that the viewed/unopened statistics are estimates, and are intended "
+"primarily to be used in making comparisons between your mailings."
+msgstr ""
+"* Beachten Sie, dass die Statistiken Schätzungen sind und als Vergleich "
+"zwischen Ihrer Mailings dienen sollen."
+
+#: single_pages/dashboard/mailing_list/mailings.php:427
+msgid ""
+"This is because some mail clients render in plain text, or require user "
+"consent before images are displayed in mailing."
+msgstr ""
+"Einige Mail-Clients zeigen nur unformatierten Text oder Bilder erst nach "
+"Einwilligung an."
+
+#: single_pages/dashboard/mailing_list/mailings.php:428
+msgid ""
+"Therefore your mailing's tracking pixel may not fire for every viewed email, "
+"and in most cases the percentage of actual opened emails will be higher."
+msgstr ""
+"Aus diesm Grund kann nicht immer eine Information über eine gelesene E-Mail "
+"vom Zählpixel (ein Ein-Pixel-Bild in der E-Mail) zurückgegeben werden. In "
+"den meisten Fällen ist die Anzahl der gelesenen E-Mails höher."
+
+#: single_pages/dashboard/mailing_list/mailings.php:438
+msgid "Create New Mailing"
+msgstr "Neues Mailing"
+
+#: single_pages/dashboard/mailing_list/mailings.php:447
+msgid "No mailings have yet been created."
+msgstr "Es wurden noch keine Mailings erstellt."
+
+#: single_pages/dashboard/mailing_list/mailings.php:457
+msgid "Opened"
+msgstr "Geöffnet"
+
+#: single_pages/dashboard/mailing_list/mailings.php:487
+msgid "Draft"
+msgstr "Entwurf"
+
+#: single_pages/dashboard/mailing_list/mailings.php:496
+#: single_pages/dashboard/mailing_list/mailings.php:503
+#: single_pages/dashboard/mailing_list/subscribers.php:234
+msgid "-"
+msgstr "-"
+
+#: single_pages/dashboard/mailing_list/mailings.php:523
+#: single_pages/dashboard/mailing_list/subscribers.php:149
+msgid "&laquo; Previous"
+msgstr "&laquo; Vorschau"
+
+#: single_pages/dashboard/mailing_list/mailings.php:525
+#: single_pages/dashboard/mailing_list/subscribers.php:148
+msgid "Next &raquo;"
+msgstr "Vor  »"
+
+#: single_pages/dashboard/mailing_list/send.php:60
+msgid "Please select at least one group"
+msgstr "Bitte wählen Sie mindestens einen Verteiler"
+
+#: single_pages/dashboard/mailing_list/send.php:61
+msgid "Are you sure this email is ready to send?"
+msgstr "Möchten Sie die E-Mail jetzt an die ausgewählten Empfänger senden?"
+
+#: single_pages/dashboard/mailing_list/send.php:62
+msgid ""
+"This will only show subscribed registered users, not unregistered "
+"subscribers. Use the export feature to see all subscribers. Continue?"
+msgstr ""
+"Es werden nur nur registrierte Benutzer, jedoch keine unregistrierten "
+"Abonnenten angezeigt. Nutzen Sie die Export-Funktion, um alle Abonnenten "
+"anzuzeigen. Trotzdem Fortfahren?"
+
+#: single_pages/dashboard/mailing_list/send.php:63
+#, php-format
+msgid "(%s recipients)"
+msgstr "(%s Empfänger)"
+
+#: single_pages/dashboard/mailing_list/send.php:74
+msgid "Edit Mailing"
+msgstr "Mailing bearbeiten"
+
+#: single_pages/dashboard/mailing_list/send.php:74
+msgid "Create Mailing"
+msgstr "Mailing verfassen"
+
+#: single_pages/dashboard/mailing_list/send.php:89
+msgid "There were some problems with your info: "
+msgstr "Bitte folgende Eingaben überprüfen:"
+
+#: single_pages/dashboard/mailing_list/send.php:98
+msgid ""
+"Please confirm that the body of email is formatted correctly, and resubmit."
+msgstr ""
+"Bitte kontrollieren Sie die Formatierung des Textes bevor sie die das "
+"Mailing senden."
+
+#: single_pages/dashboard/mailing_list/send.php:106
+msgid ""
+"Please notify an administrator to review your mailing and to start the send "
+"process."
+msgstr ""
+"Kontaktieren Sie einen Administrator, um Ihre Mailing zu überprüfen und den "
+"Sendevorgang zu starten."
+
+#: single_pages/dashboard/mailing_list/send.php:108
+#, php-format
+msgid "View the %smailing detail page &raquo;%s"
+msgstr "Zu %smailing detail page &raquo;%s"
+
+#: single_pages/dashboard/mailing_list/send.php:120
+msgid "Recipients:"
+msgstr "Senden an:"
+
+#: single_pages/dashboard/mailing_list/send.php:124
+msgid "Export Emails:"
+msgstr "Exportieren"
+
+#: single_pages/dashboard/mailing_list/send.php:125
+msgid "Excel"
+msgstr "Excel"
+
+#: single_pages/dashboard/mailing_list/send.php:126
+msgid "CSV"
+msgstr "CSV"
+
+#: single_pages/dashboard/mailing_list/send.php:130
+#, php-format
+msgid "%sGroups%s"
+msgstr "%sGruppen%s"
+
+#: single_pages/dashboard/mailing_list/send.php:131
+msgid "Registered Users Only"
+msgstr "Nur für registrierte Benutzer"
+
+#: single_pages/dashboard/mailing_list/send.php:134
+msgid "Add Groups &raquo;"
+msgstr "Verteiler hinzufügen &raquo;"
+
+#: single_pages/dashboard/mailing_list/send.php:173
+msgid "Only send to users with the following attribute enabled:"
+msgstr "Benutzer mit folgendem aktivierten Attribut:"
+
+#: single_pages/dashboard/mailing_list/send.php:175
+msgid "------"
+msgstr "------"
+
+#: single_pages/dashboard/mailing_list/send.php:190
+msgid ""
+"Boolean/checkbox user-attributes only.  This will limit this mailing to only "
+"registered users."
+msgstr ""
+"Das Mailing wird ausschließlich an registrierte Benutzer gesendet, bei denen "
+"das angegebne Attribut aktiviert ist."
+
+#: single_pages/dashboard/mailing_list/send.php:198
+msgid "Sender's Email:"
+msgstr "E-Mail des Absenders:"
+
+#: single_pages/dashboard/mailing_list/send.php:202
+msgid "Other"
+msgstr "Andere"
+
+#: single_pages/dashboard/mailing_list/send.php:213
+msgid "Sender's Name (Optional):"
+msgstr "Name des Absenders (optional):"
+
+#: single_pages/dashboard/mailing_list/send.php:231
+#: single_pages/dashboard/mailing_list/send.php:267
+msgid "Subject:"
+msgstr "Betreff:"
+
+#: single_pages/dashboard/mailing_list/send.php:242
+msgid "HTML Version:"
+msgstr "HTML-Version:"
+
+#: single_pages/dashboard/mailing_list/send.php:250
+msgid "Plain Text Version:"
+msgstr "Textversion:"
+
+#: single_pages/dashboard/mailing_list/send.php:275
+msgid "Body:"
+msgstr "Haupttext:"
+
+#: single_pages/dashboard/mailing_list/send.php:293
+msgid "Attachments (Optional):"
+msgstr "Anhang (optional):"
+
+#: single_pages/dashboard/mailing_list/send.php:310
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: single_pages/dashboard/mailing_list/send.php:311
+msgid "Note: You should keep your total attachment size under 2MB."
+msgstr "(max. 2MB)"
+
+#: single_pages/dashboard/mailing_list/send.php:324
+msgid "Preview &raquo;"
+msgstr "Vorschau & Senden &raquo;"
+
+#: single_pages/dashboard/mailing_list/send.php:326
+msgid "Send &raquo;"
+msgstr "Senden &raquo;"
+
+#: single_pages/dashboard/mailing_list/send.php:328
+msgid "Save As Pending &raquo;"
+msgstr "Im Ausgang speichern »"
+
+#: single_pages/dashboard/mailing_list/send.php:334
+msgid "Save As Draft"
+msgstr "Als Entwurf speichern"
+
+#: single_pages/dashboard/mailing_list/send.php:339
+msgid "&laquo; Edit"
+msgstr "&laquo; Bearbeiten"
+
+#: single_pages/dashboard/mailing_list/send.php:341
+msgid "Rich Text:"
+msgstr "Formatierter Text:"
+
+#: single_pages/dashboard/mailing_list/send.php:341
+msgid "On/Off"
+msgstr "Ein/Aus"
+
+#: single_pages/dashboard/mailing_list/settings.php:65
+#: single_pages/dashboard/mailing_list/settings.php:67
+msgid "Mailing List Settings"
+msgstr "Einstellungen"
+
+#: single_pages/dashboard/mailing_list/settings.php:90
+msgid "Allow mailings to all registered users"
+msgstr "Mailings an alle registrierten Benutzer erlauben"
+
+#: single_pages/dashboard/mailing_list/settings.php:93
+msgid "Group Access"
+msgstr "Zugriff auf Verteiler"
+
+#: single_pages/dashboard/mailing_list/settings.php:98
+msgid "Group Name"
+msgstr "Gruppenname"
+
+#: single_pages/dashboard/mailing_list/settings.php:99
+msgid "Allow Subscriptions"
+msgstr "Abonnieren erlauben"
+
+#: single_pages/dashboard/mailing_list/settings.php:100
+msgid "Enable Mailings"
+msgstr "Als Verteiler aktivieren"
+
+#: single_pages/dashboard/mailing_list/settings.php:138
+#, php-format
+msgid ""
+"Subscribing and unsubscribing provides an easy way for users to enter & exit "
+"selected %sgroups%s."
+msgstr ""
+"Das Abonnieren bzw. Kündigen ist für Benutzer eine einfache Möglichkeit, "
+"sich in einem %sVerteiler%s ein- oder auszutragen."
+
+#: single_pages/dashboard/mailing_list/settings.php:139
+msgid ""
+"For this reason you only want to enable subscriptions for groups directly "
+"related to your mailing lists."
+msgstr ""
+"Deshalb aktivieren Sie bitte nur Verteiler, die sie für Mailings benutzen "
+"wollen."
+
+#: single_pages/dashboard/mailing_list/settings.php:140
+msgid ""
+"Groups that have subscriptions disabled will still allow for opting-out of "
+"future mailings."
+msgstr ""
+"Gruppen bei denen \"Abonnieren erlauben\" deaktiviert wurde, können sich "
+"später trotzdem aus dem Verteiler austragen."
+
+#: single_pages/dashboard/mailing_list/settings.php:141
+#, php-format
+msgid ""
+"You can restrict access to this settings page by using the page privledges "
+"in the %ssitemap%s"
+msgstr ""
+"Sie können die Zugriffsberechtigungen für diese Seite in der %sSitemap%s "
+"anpassen (Seite anklicken, Menüpunkt \"Berechtigungen anpassen\")."
+
+#: single_pages/dashboard/mailing_list/settings.php:148
+msgid ""
+"When unsubscribing, display \"blacklist\" option, which allows people to "
+"unsubscribe permanently from all future mailings."
+msgstr ""
+"Bei Kündigung \"Blacklist\" Optionen anzeigen. Dies erlaubt Benutzern keine "
+"zukünftigen Mailings zu empfangen."
+
+#: single_pages/dashboard/mailing_list/settings.php:156
+msgid "Send Process Configuration"
+msgstr "Sendeeinstellungen"
+
+#: single_pages/dashboard/mailing_list/settings.php:159
+msgid "Auto-Send:"
+msgstr "Automatisch senden:"
+
+#: single_pages/dashboard/mailing_list/settings.php:162
+msgid "Start sending emails directly after their creation."
+msgstr "E-Mails direkt nach deren Erstellung senden."
+
+#: single_pages/dashboard/mailing_list/settings.php:164
+msgid ""
+"Warning: since cURL is not installed on your server this option will not "
+"work."
+msgstr ""
+"Achtung: Da cURL nicht installiert ist, wird diese Option nicht "
+"funktionieren."
+
+#: single_pages/dashboard/mailing_list/settings.php:170
+msgid "Logging:"
+msgstr "Protokollierung:"
+
+#: single_pages/dashboard/mailing_list/settings.php:172
+msgid "Log Sent Emails:"
+msgstr "Speichern gesendeter E-Mails:"
+
+#: single_pages/dashboard/mailing_list/settings.php:173
+msgid "Off"
+msgstr "Aus"
+
+#: single_pages/dashboard/mailing_list/settings.php:174
+#, php-format
+msgid "First %s Only"
+msgstr "Nur die ersten %s"
+
+#: single_pages/dashboard/mailing_list/settings.php:175
+msgid "All"
+msgstr "Alle"
+
+#: single_pages/dashboard/mailing_list/settings.php:177
+#, php-format
+msgid ""
+"It is not recommend to log \"All\" sent emails when sending to large groups "
+"of recipients. %sView Log%s &raquo;"
+msgstr ""
+"Es wird nicht empfohlen \"Alle\" gesendeten E-Mails zu speichern, wenn sehr "
+"viele E-Mails gesendet werden. %szum Protokoll%s »"
+
+#: single_pages/dashboard/mailing_list/settings.php:183
+msgid "Send Throttling:"
+msgstr "Langsames Senden:"
+
+#: single_pages/dashboard/mailing_list/settings.php:186
+msgid "Slow down sending of emails (if your server is being overloaded)."
+msgstr "E-Mails langsam senden (bei überlastetem Server)."
+
+#: single_pages/dashboard/mailing_list/settings.php:193
+msgid "Maximum Run Time:"
+msgstr "Maximale Laufzeit:"
+
+#: single_pages/dashboard/mailing_list/settings.php:196
+#: single_pages/dashboard/mailing_list/settings.php:218
+msgid "minutes"
+msgstr "Minuten"
+
+#: single_pages/dashboard/mailing_list/settings.php:198
+#, php-format
+msgid ""
+"Disabled, since php Safe Mode is on. It is currently fixed at %s seconds"
+msgstr "Bei PHP Safe Mode deaktiviert. Geändert für %s Sekunden"
+
+#: single_pages/dashboard/mailing_list/settings.php:204
+msgid "Send Rate:"
+msgstr "Senderate:"
+
+#: single_pages/dashboard/mailing_list/settings.php:205
+msgid "After sending"
+msgstr "Nach dem Senden von"
+
+#: single_pages/dashboard/mailing_list/settings.php:207
+msgid "emails, pause for "
+msgstr "E-Mails, Pause für"
+
+#: single_pages/dashboard/mailing_list/settings.php:209
+msgid "seconds"
+msgstr "Sekunden"
+
+#: single_pages/dashboard/mailing_list/settings.php:215
+msgid "Auto-Restart:"
+msgstr "Neustart:"
+
+#: single_pages/dashboard/mailing_list/settings.php:216
+msgid "If idle or interrupted, restart after "
+msgstr "Bei Inaktivität oder unterbrochenem Mailing erneutes Senden nach:"
+
+#: single_pages/dashboard/mailing_list/settings.php:227
+msgid ""
+"If you would like to set up a cronjob for sending out mailings, you can have "
+"your server call this url:"
+msgstr ""
+"Wenn Sie einen Cronjob für das Versenden von Mailings erstellen wollen, "
+"können Sie folgende URL benutzen:"
+
+#: single_pages/dashboard/mailing_list/settings.php:236
+msgid "Email Design"
+msgstr "E-Mail-Design"
+
+#: single_pages/dashboard/mailing_list/settings.php:242
+msgid "Template:"
+msgstr "Vorlage:"
+
+#: single_pages/dashboard/mailing_list/settings.php:245
+msgid "Basic"
+msgstr "Standard"
+
+#: single_pages/dashboard/mailing_list/settings.php:246
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: single_pages/dashboard/mailing_list/settings.php:256
+msgid "Header HTML:"
+msgstr "HTML Kopfbereich:"
+
+#: single_pages/dashboard/mailing_list/settings.php:265
+msgid "Footer HTML:"
+msgstr "HTML Fußzeile:"
+
+#: single_pages/dashboard/mailing_list/settings.php:272
+#, php-format
+msgid ""
+"Note that you can't use a lot of standard HTML and CSS with HTML emails "
+"(%smore info%s)."
+msgstr ""
+"Achtung: Einige HTML und CSS Standards funktionieren nicht zuverlässig in E-"
+"Mails (%sMehr Infos%s)."
+
+#: single_pages/dashboard/mailing_list/settings.php:273
+msgid ""
+"Make sure you test in multiple email clients before doing a full mailing."
+msgstr ""
+"Achten Sie darauf das Mailing in verschiedenen E-Mail Clients zu testen, "
+"bevor Sie es starten."
+
+#: single_pages/dashboard/mailing_list/settings.php:285
+msgid "Save Changes &raquo;"
+msgstr "Änderungen speichern"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:30
+msgid "Non-Registered User Details"
+msgstr "Details unregistrierter Benutzer"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:43
+msgid "Unsubscribers"
+msgstr "Abgemeldete Abonnenten"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:43
+msgid "Subscribers"
+msgstr "Abonnenten"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:51
+msgid "Page Size:"
+msgstr "Anzahl pro Seite:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:60
+msgid "All Mailing List Groups"
+msgstr "Alle Verteiler"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:71
+msgid "Unsubscribers Only"
+msgstr "Nur die Abgemeldeten Abonnenten"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:75
+msgid "Filter"
+msgstr "Filtern"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:80
+msgid "No unsubscribers found."
+msgstr "Keine Kündigungen gefunden"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:80
+msgid "No subscribers found."
+msgstr "Keine Abonnenten gefunden."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:83
+msgid "Unsubscriber"
+msgstr "Abgemeldete Abonnenten"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:83
+msgid "Subscriber"
+msgstr "Abonnent"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:88
+#: single_pages/dashboard/mailing_list/subscribers.php:290
+msgid "Email: "
+msgstr "E-Mail:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:89
+msgid "User Type: "
+msgstr "Benutzertyp:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:90
+msgid "Subscriptions: "
+msgstr "Abos: "
+
+#: single_pages/dashboard/mailing_list/subscribers.php:90
+msgid "Subscribed To: "
+msgstr "Abonnent von:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:106
+msgid "Registered"
+msgstr "Registriert"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:106
+msgid "Unregistered"
+msgstr "Unregistriert"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:113
+msgid "Blacklisted on "
+msgstr "Blacklist an "
+
+#: single_pages/dashboard/mailing_list/subscribers.php:158
+msgid "Import Subscribers"
+msgstr "Abonnenten Importieren"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:168
+msgid "users successfully subscribed."
+msgstr "Benutzer erfolgreich abonniert."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:177
+msgid "Upload a .csv or .txt file containing email addresses:"
+msgstr ""
+"Bitte nur Dateien im .csv oder .txt-Format (utf-8), die E-Mail-Adressen und "
+"gegebenenfalls zusätzliche Attribute, wie Vor- und Nachname, enthalten.<br/"
+">Die einzelnen Angaben sollten kommagetrennt sein."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:182
+msgid "Select a subscription group for these users to be placed into:"
+msgstr "Verteiler für diese Abonnenten auswählen:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:198
+msgid "Import Mode: "
+msgstr "Import-Modus: "
+
+#: single_pages/dashboard/mailing_list/subscribers.php:199
+msgid "Emails Only"
+msgstr "Nur E-Mails"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:200
+msgid "Emails & Attributes"
+msgstr "E-Mails &amp; Attribute"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:204
+msgid "Assign Columns: "
+msgstr "Spalten zuordnen:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:215
+#, php-format
+msgid "Column %s:"
+msgstr "Spalte %s:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:240
+msgid "Add Another Column"
+msgstr "Spalte hinzufügen"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:242
+msgid ""
+"Only the following attribute types are available for import: text, textarea, "
+"number, boolean, &amp; date_time"
+msgstr ""
+"Es können nur folgende Attribut-Typen importiert werden: text, textarea, "
+"number, boolean, &amp; date_time"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:248
+#: single_pages/dashboard/mailing_list/subscribers.php:315
+msgid "I confirm that i will not send unsolicited mailings."
+msgstr "Hiermit bestätige ich, dass ich keine unerwünschten Mailings sende."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:250
+#: single_pages/dashboard/mailing_list/subscribers.php:317
+msgid "Submit &raquo;"
+msgstr "Absenden"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:262
+msgid "Subscribe / Unsubscribe Users"
+msgstr "Abonnent eintragen/austragen"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:274
+#, php-format
+msgid "The email address %s has been subscribed."
+msgstr "Die E-Mail-Adresse %s wurde erfolgreich hinzugefügt."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:280
+#, php-format
+msgid "The email address %s has been unsubscribed."
+msgstr "Die E-Mail-Adresse %s wurde erfolgreich entfernt."
+
+#: single_pages/dashboard/mailing_list/subscribers.php:293
+msgid "Subscribe"
+msgstr "Eintragen"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:294
+msgid "Unsubscribe"
+msgstr "Austragen"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:298
+msgid "Group: "
+msgstr "Verteiler:"
+
+#: single_pages/dashboard/mailing_list/subscribers.php:308
+msgid "Blacklist from All"
+msgstr "Blacklist von Allen"
+
+#: tools/services.php:16
+msgid "sending mailing"
+msgstr "Mailings senden"
+
+#: tools/services.php:24
+msgid "sending all mailings"
+msgstr "Alle Mailings senden"
+
+#: tools/services.php:32
+msgid "Invalid Auth Key"
+msgstr "Üngültiger Identifikationsschlüssel"
+
+#~ msgid "Send"
+#~ msgstr "Senden"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Import"
+#~ msgstr "Importieren"
+
+#~ msgid "Einstellungen"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Mailing Abonnements"
+#~ msgstr "Abonnements"
+
+#~ msgid "Eintragen/Austragen aus Mailingliste erlauben"
+#~ msgstr "Eintragen/Austragen aus Mailingliste erlauben"

@@ -1,0 +1,63 @@
+// File Name: _fonts.scss
+// Description: global fonts styles
+
+@font-face {
+	font-family: 'Roboto Light';
+	src: url('#{$fontsDir}Roboto-Light.eot');
+	src: url('#{$fontsDir}Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		url('#{$fontsDir}Roboto-Light.woff2') format('woff2'),
+		url('#{$fontsDir}Roboto-Light.woff') format('woff'),
+		url('#{$fontsDir}Roboto-Light.ttf') format('truetype'),
+		url('#{$fontsDir}Roboto-Light.svg#Roboto-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('#{$fontsDir}Roboto-Bold.eot');
+	src: url('#{$fontsDir}Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+		url('#{$fontsDir}Roboto-Bold.woff2') format('woff2'),
+		url('#{$fontsDir}Roboto-Bold.woff') format('woff'),
+		url('#{$fontsDir}Roboto-Bold.ttf') format('truetype'),
+		url('#{$fontsDir}Roboto-Bold.svg#Roboto-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Medium';
+	src: url('#{$fontsDir}Roboto-Medium.eot');
+	src: url('#{$fontsDir}Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		url('#{$fontsDir}Roboto-Medium.woff2') format('woff2'),
+		url('#{$fontsDir}Roboto-Medium.woff') format('woff'),
+		url('#{$fontsDir}Roboto-Medium.ttf') format('truetype'),
+		url('#{$fontsDir}Roboto-Medium.svg#Roboto-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Light Italic';
+	src: url('#{$fontsDir}Roboto-LightItalic.eot');
+	src: url('#{$fontsDir}Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('#{$fontsDir}Roboto-LightItalic.woff2') format('woff2'),
+		url('#{$fontsDir}Roboto-LightItalic.woff') format('woff'),
+		url('#{$fontsDir}Roboto-LightItalic.ttf') format('truetype'),
+		url('#{$fontsDir}Roboto-LightItalic.svg#Roboto-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('#{$fontsDir}Roboto-Regular.eot');
+	src: url('#{$fontsDir}Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('#{$fontsDir}Roboto-Regular.woff2') format('woff2'),
+		url('#{$fontsDir}Roboto-Regular.woff') format('woff'),
+		url('#{$fontsDir}Roboto-Regular.ttf') format('truetype'),
+		url('#{$fontsDir}Roboto-Regular.svg#Roboto-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

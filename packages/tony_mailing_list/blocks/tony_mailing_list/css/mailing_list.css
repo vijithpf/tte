@@ -1,0 +1,13 @@
+.MailingListSubscribe{}
+.MailingListSubscribe label { display:inline; font-weight:normal; float:none; }
+.MailingListSubscribe .mailing-list-signup-text { margin-bottom:8px; }
+.MailingListSubscribe .mailing-list-checkboxes { padding-bottom:8px;}
+.MailingListSubscribe .mailing-list-email-wrap { margin-bottom:8px; }
+.MailingListSubscribe .mailing-list-msg { margin-bottom:8px; border:1px solid #ccc; background:#FFC; color:#555; padding:2px 3px; }
+
+.MailingListSubscribe .mailing-list-user-attrs { margin-top:16px; }
+.MailingListSubscribe .mailing-list-user-attr {margin-bottom:8px; }
+.MailingListSubscribe .mailing-list-user-attr label { display:block; }
+
+.MailingListSubscribe .mailing-list-required-note { margin-top:8px; font-size:10px; line-height:12px; }
+.MailingListSubscribe .required { color:#F60; }

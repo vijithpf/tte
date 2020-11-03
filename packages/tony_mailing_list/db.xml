@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="TonyMailingListNonUsers">
+	
+		<field name="mluID" type="I">
+			<autoincrement />
+			<key />
+			<unsigned />
+		</field>
+		
+		<field name="email"  type="C" size="128"><unique/></field> 
+		
+		<field name="gIDs"  type="C" size="255"></field>  
+		
+		<field name="attrDataRaw" type="X2"></field>  
+			
+		<field name="blacklist"  type="i" size="1"></field>
+		
+		<field name="unsubscribe_data" type="X2"></field>   
+		
+		<field name="last_unsubscribe_date"  type="i" size="11"></field>
+		
+		<field name="created"  type="i" size="11"></field>
+		
+	</table>
+	
+	<table name="TonyMailingListMailings">
+	
+		<field name="mlmID" type="I">
+			<autoincrement />
+			<key />
+			<unsigned />
+		</field> 
+		
+		<field name="status"  type="C" size="32"></field>  
+		
+		<field name="status_msg"  type="C" size="255"></field>  
+		
+		<field name="recipients"  type="C" size="255"></field>  
+		
+		<field name="recipients_count"  type="i" size="11"></field>
+		
+		<field name="gIDs"  type="C" size="255"></field>  
+		
+		<field name="sender_uID"  type="i" size="1"></field>
+		
+		<field name="sender" type="C" size="32"></field> 
+		
+		<field name="sender_email" type="C" size="128"></field>
+		
+		<field name="sender_name" type="C" size="128"></field>
+		
+		<field name="subject"  type="C" size="255"></field>
+		
+		<field name="attachments"  type="C" size="255"></field>		
+		
+		<field name="body"  type="X2"></field>
+		
+		<field name="sent_count"  type="i" size="11"></field>
+		
+		<field name="sentUIDs"  type="X2"></field>
+		
+		<field name="sentMLUIDs"  type="X2"></field>
+		
+		<field name="failedUIDs"  type="X2"></field>
+		
+		<field name="failedMLUIDs"  type="X2"></field>		
+		
+		<field name="created"  type="i" size="11"></field> 
+		
+		<field name="updated"  type="i" size="11"></field>  
+		
+		<field name="whiteListAttrId"  type="i" size="11"></field>  
+		
+		<field name="blackListAttrId"  type="i" size="11"></field>  
+		
+		<field name="stats" type="X2"></field>	
+		
+	</table>	
+	
+</schema>

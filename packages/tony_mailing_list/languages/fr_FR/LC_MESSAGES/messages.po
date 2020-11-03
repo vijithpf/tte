@@ -1,0 +1,1365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tony Mailing List 2.25\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 17:02+0100\n"
+"PO-Revision-Date: 2012-03-02 17:06+0100\n"
+"Last-Translator: cali <cali@concrete5.fr>\n"
+"Language-Team: conrete5 FR <cali@concrete5.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: /Users/tony/ConcreteCMS/concrete5-addons/trunk/web/packaged_blocks/tony_mailing_list/\n"
+"X-Poedit-Language: French\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /var/www/c551fr/packages/tony_mailing_list\n"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:3
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:3
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:3
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/add.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/edit.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:2
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:3
+msgid "Access Denied."
+msgstr "Accès refusé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:23
+msgid "Send mail to people in any group, and manage subscriptions"
+msgstr "Envoyer le courriel aux membres d'un groupe, et gérer les abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:27
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:69
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:116
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/add.php:4
+msgid "Mailing List"
+msgstr "Liste de Diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:55
+msgid "Manage Subscriptions"
+msgstr "Gérer les abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:55
+msgid "Unsubscribe from mailing list groups"
+msgstr "Se désabonner des groupes de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:60
+msgid "Error: /manage_subscriptions page not created"
+msgstr "Erreur: /manage_subscriptions page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:69
+msgid "Send emails to groups & manage mailings"
+msgstr "Envoi & gest° des abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:70
+msgid "Error: /dashboard/mailing_list page not created"
+msgstr "Erreur: /dashboard/mailing_list page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:78
+msgid "Create"
+msgstr "Créer"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:78
+msgid "Create & edit mailings"
+msgstr "Céer & éditer les mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:79
+msgid "Error: /dashboard/mailing_list/send page not created"
+msgstr "Erreur: /dashboard/mailing_list/send page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:87
+msgid "Mailings"
+msgstr "Mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:87
+msgid "View sent emails"
+msgstr "Voir les courriels envoyés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:88
+msgid "Error: /dashboard/mailing_list/mailings page not created"
+msgstr "Erreur: /dashboard/mailing_list/mailings page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:96
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:27
+msgid "Settings"
+msgstr "Réglages"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:96
+msgid "Configure the mailings list and subscriptions"
+msgstr "Configurer les listes de diffusion et les abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:97
+msgid "Error: /dashboard/mailing_list/settings page not created"
+msgstr "Erreur: /dashboard/mailing_list/settings page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:105
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:36
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:38
+msgid "Manage Subscribers"
+msgstr "Gérer les abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:105
+msgid "Manager users"
+msgstr "Gérer les utilisateurs"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:106
+msgid "Error: /dashboard/mailing_list/subscribers page not created"
+msgstr "Erreur: /dashboard/mailing_list/subscribers page non créée"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:119
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:124
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:129
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:134
+msgid "Mailing List Group"
+msgstr "Groupe de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:121
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:126
+msgid "Specials & Promotions"
+msgstr "Spécials & Promotions"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:131
+msgid "Updates"
+msgstr "Mises à jour"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:142
+msgid "Never send mailing list emails"
+msgstr "Ne jamais envoyer de courriel de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:148
+msgid "Opt-Out of Group Mailings"
+msgstr "Se retirer du groupe de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:154
+msgid "Last Mailing List Unsubscription Date"
+msgstr "Drnière date de désabonnement"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controller.php:161
+msgid "Mailing List Unsubscribe Info"
+msgstr "Infos de désabonnement de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/tools/services.php:16
+msgid "sending mailing"
+msgstr "envoi du mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/tools/services.php:24
+msgid "sending all mailings"
+msgstr "envoie de tous les mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/tools/services.php:32
+msgid "Invalid Auth Key"
+msgstr "Auth Key invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:8
+msgid "Are you sure you want to permanently unsubscribe from all future mailings from this site?"
+msgstr "Etes vous certain de vouloir vous désabonner définitivement des futurs envoie de ce site ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:36
+msgid "Subscribe to Mailing List"
+msgstr "S'abonner à la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:36
+msgid "Unsubscribe from Mailing List"
+msgstr "Se désabonner de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:43
+msgid "You have been subscribed to this mailing list. "
+msgstr "Vous avez été abonné à cette liste de diffusion."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:46
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:56
+msgid "Return to Homepage"
+msgstr "Revenir sur la page d'accueil"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:53
+msgid "You have been unsubscribed. "
+msgstr "Vous avez été désinscrit."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:64
+msgid "To unsubscribe, please click the unsubscribe link from the bottom of a mailing list email."
+msgstr "Afin de vous désinscrire, veuillez cliquer sur le lien de désinscription présent à la fin de ce courriel."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:68
+msgid "You must select at least one mailing list group."
+msgstr "Vous devez choisir au moins un groupe de diffusion."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:72
+msgid "Have you already unsubscribed? The validation token is invalid. "
+msgstr "Ne vous seriez vous pas désinscrit? La clef de validation est invalide."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:92
+msgid "To subscribe to this mailing list, just click the subscribe button below."
+msgstr "Pour s'abonner à cette liste de diffusion, cliquez simplement sur le bouton \"s'abonner\" ci-dessous."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:100
+msgid "Click the checkbox next to each mailing list you want to unsubscribe from: "
+msgstr "Cliquez sur les cases de chaque liste desquelles vous désirez vous désabonner:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:107
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:120
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list.php:94
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:92
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:91
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:172
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:114
+msgid "Unsubscribe from"
+msgstr "Se désabonner de"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:116
+msgid "Opt-out of mailings from "
+msgstr "Emails retirés des mailing de "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:118
+msgid "\""
+msgstr "\""
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:126
+msgid "Unsubscribe me permanently from all future mailings from this site."
+msgstr "Désabonnez définitivement de toutes les futures diffusions de ce site."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:136
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:335
+msgid "&laquo; Cancel"
+msgstr "&laquo; Annuler"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:137
+msgid "Subscribe &raquo;"
+msgstr "S'abonner &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/manage_subscriptions.php:137
+msgid "Unsubscribe &raquo;"
+msgstr "Se désabonner &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:30
+msgid "Non-Registered User Details"
+msgstr "Détails des utilistauer non enregistrés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:43
+msgid "Unsubscribers"
+msgstr "Désabonnés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:43
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:51
+msgid "Page Size:"
+msgstr "Taille de la page:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:60
+msgid "All Mailing List Groups"
+msgstr "Tous les groupes de listes de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:71
+msgid "Unsubscribers Only"
+msgstr "Désabonné uniqument"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:75
+msgid "Filter"
+msgstr "Filtre"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:80
+msgid "No unsubscribers found."
+msgstr "Aucun désabonné trouvé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:80
+msgid "No subscribers found."
+msgstr "Aucun abonné trouvé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:83
+msgid "Unsubscriber"
+msgstr "Désabonné"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:83
+msgid "Subscriber"
+msgstr "Abonné"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:88
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:290
+msgid "Email: "
+msgstr "Email:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:89
+msgid "User Type: "
+msgstr "Type d'utilisateur:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:90
+msgid "Subscriptions: "
+msgstr "Abonnements:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:90
+msgid "Subscribed To: "
+msgstr "Abonné à:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:106
+msgid "Registered"
+msgstr "Enregsitré"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:106
+msgid "Unregistered"
+msgstr "Non enregistré"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:113
+msgid "Blacklisted on "
+msgstr "Mis sur liste noire le"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:131
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:217
+msgid "Unsubscribed"
+msgstr "Désabonné"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:148
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:523
+msgid "Next &raquo;"
+msgstr "Suivant  &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:149
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:521
+msgid "&laquo; Previous"
+msgstr "&laquo; Précédent"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:158
+msgid "Import Subscribers"
+msgstr "Importer des abonnés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:168
+msgid "users successfully subscribed."
+msgstr "utilisateurs correctement abonnés."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:177
+msgid "Upload a .csv or .txt file containing email addresses:"
+msgstr "Téléverser un fichier .csv or .txt contenant des adresses email:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:182
+msgid "Select a subscription group for these users to be placed into:"
+msgstr "Sélectionner un groupe de souscription ou placer cet utilisateur:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:198
+msgid "Import Mode: "
+msgstr "Mode d'importation: "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:199
+msgid "Emails Only"
+msgstr "Emails seulement"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:200
+msgid "Emails & Attributes"
+msgstr "Emails & Attributs"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:204
+msgid "Assign Columns: "
+msgstr "Affecter des colonnes: "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:215
+#, php-format
+msgid "Column %s:"
+msgstr "Colonne %s:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:221
+msgid "Email"
+msgstr "Email"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:234
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:494
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:501
+msgid "-"
+msgstr "-"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:240
+msgid "Add Another Column"
+msgstr "Ajouter une autre colonne"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:242
+msgid "Only the following attribute types are available for import: text, textarea, number, boolean, &amp; date_time"
+msgstr "Seul les types d'attributs suivants sont disponibles à l'importation: text, textarea, number, boolean, &amp; date_time"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:248
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:315
+msgid "I confirm that i will not send unsolicited mailings."
+msgstr "Je confirme que je ne vais pas envoyer de mailings non solicités."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:250
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:317
+msgid "Submit &raquo;"
+msgstr "Envoyer &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:262
+msgid "Subscribe / Unsubscribe Users"
+msgstr "Abonner / Désabonner des utilisateurs"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:274
+#, php-format
+msgid "The email address %s has been subscribed."
+msgstr "L'adresse email %s à été abonnée."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:280
+#, php-format
+msgid "The email address %s has been unsubscribed."
+msgstr "L'adresse email %s à été désabonnée."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:293
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:294
+msgid "Unsubscribe"
+msgstr "Désabonner"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:298
+msgid "Group: "
+msgstr "Groupe:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/subscribers.php:308
+msgid "Blacklist from All"
+msgstr "Liste noire complète"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:65
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:67
+msgid "Mailing List Settings"
+msgstr "Paramètres des listes de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:77
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:217
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:102
+msgid "Changes Saved"
+msgstr "Modification sauvegardées"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:90
+msgid "Allow mailings to all registered users"
+msgstr "Autoriser la diffusion à tous les membres enregistrés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:93
+msgid "Group Access"
+msgstr "Réglages des groupes"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:98
+msgid "Group Name"
+msgstr "Nom du groupe"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:99
+msgid "Allow Subscriptions"
+msgstr "Autoriser les abonnements"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:100
+msgid "Enable Mailings"
+msgstr "Activer les mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:138
+#, php-format
+msgid "Subscribing and unsubscribing provides an easy way for users to enter & exit selected %sgroups%s."
+msgstr "S'abonner et se désabonner fournit une faàon simple aux utilisateurs d'entrer & sortir des %sgroupes%s sélectionnés."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:139
+msgid "For this reason you only want to enable subscriptions for groups directly related to your mailing lists."
+msgstr "Pour cette raison vous ne devriez activer que les abonnements relatifs groupes directement liés à vos listes de diffusion."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:140
+msgid "Groups that have subscriptions disabled will still allow for opting-out of future mailings."
+msgstr "Les groupes qui ont des abonnements désactivés permettrons toujours de futurs envoie pour les opting-out"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:141
+#, php-format
+msgid "You can restrict access to this settings page by using the page privledges in the %ssitemap%s"
+msgstr "Vous pouvez restreindre l'accès à cette page en utilisant les privilèges de celle-ci dans le %splan du site%s"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:148
+msgid "When unsubscribing, display \"blacklist\" option, which allows people to unsubscribe permanently from all future mailings."
+msgstr "Lors de désabonnement, afficher l'option de \"liste noire\", permettant aux internautes de se désinscrire définitivement de tous les futurs mailings."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:156
+msgid "Send Process Configuration"
+msgstr "Lancer le processus de configuration"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:159
+msgid "Auto-Send:"
+msgstr "Envoie automatique:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:162
+msgid "Start sending emails directly after their creation."
+msgstr "Commencer à envoyer les courriels directement après leur création."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:164
+msgid "Warning: since cURL is not installed on your server this option will not work."
+msgstr "Attention: Comme cURL n'est pas installé sur votre serveur, cette option ne fonctionnera pas."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:170
+msgid "Logging:"
+msgstr "Enregistrement:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:172
+msgid "Log Sent Emails:"
+msgstr "Journaliser l'envoie de mails:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:173
+msgid "Off"
+msgstr "Désactivé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:174
+#, php-format
+msgid "First %s Only"
+msgstr "Les %s premiers uniquement"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:175
+msgid "All"
+msgstr "Tous"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:177
+#, php-format
+msgid "It is not recommend to log \"All\" sent emails when sending to large groups of recipients. %sView Log%s &raquo;"
+msgstr "Il n'est pas recommander de journaliser \"tous\" les emails lors d'envoie a de nombreux destinataires. %sVoir le journal%s &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:183
+msgid "Send Throttling:"
+msgstr "Evoie en bande passante limitée:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:186
+msgid "Slow down sending of emails (if your server is being overloaded)."
+msgstr "Ralentir l'envoie du mailing (si votre server  est surchargé)"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:193
+msgid "Maximum Run Time:"
+msgstr "Temps d'exécution maximal:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:196
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:218
+msgid "minutes"
+msgstr "minutes"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:198
+#, php-format
+msgid "Disabled, since php Safe Mode is on. It is currently fixed at %s seconds"
+msgstr "Désactivé, comme php Safe Mode est actif. Il est actuellement fixé à %s secondes."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:204
+msgid "Send Rate:"
+msgstr "Taux d'envoi:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:205
+msgid "After sending"
+msgstr "Après l'envoi de"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:207
+msgid "emails, pause for "
+msgstr "emails, faire une pause de "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:209
+msgid "seconds"
+msgstr "secondes"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:215
+msgid "Auto-Restart:"
+msgstr "Redémarrage automatique:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:216
+msgid "If idle or interrupted, restart after "
+msgstr "Si ralenti ou interrompu, relancer après "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:227
+msgid "If you would like to set up a cronjob for sending out mailings, you can have your server call this url:"
+msgstr "Si vous désirez paramétrer une tâche cron pour l'envoi de vos mailing,"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:236
+msgid "Email Design"
+msgstr "Conception d'email"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:242
+msgid "Template:"
+msgstr "Modèle:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:245
+msgid "Basic"
+msgstr "Basique"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:246
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:256
+msgid "Header HTML:"
+msgstr "Entête HTML: "
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:265
+msgid "Footer HTML:"
+msgstr "Pied de page HTML:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:272
+msgid "Note that you can't use a lot of standard HTML and CSS with HTML emails (%smore info%s)."
+msgstr "Notez que vous ne pouvez pas utiliser beaucoup de règles HTML et CSS dans les mail en HTML (%plus d'info%s en anglais)."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:273
+msgid "Make sure you test in multiple email clients before doing a full mailing."
+msgstr "Assurer vous d'avoir réaliser des tests sur de multiples clients mail avant d'effectuer votre mailing définitif."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/settings.php:285
+msgid "Save Changes &raquo;"
+msgstr "Enregistrer es modifications &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:75
+msgid "Running"
+msgstr "En cours d'exécution"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:122
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "Etes vous cetain de vouloir supprimer définitivement ce mailing ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:178
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:180
+msgid "Review Your Mailings"
+msgstr "Liste de vos mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:196
+msgid "Mailing not found."
+msgstr "Mailing non trouvé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:200
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:419
+msgid "&laquo; View All Mailings"
+msgstr "&laquo; Voir tous les mailings"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:212
+#, php-format
+msgid "Your mailing was successfully saved, and the send process has been started for %s users."
+msgstr "Votre mailing à été correctement enregistré, le processus d'envoi a été lancé pour %s utilisateurs."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:214
+msgid "Your mailing was successfully saved, but the send process has not been started!"
+msgstr "Votre mailing à été correctement enregistré, mais le processus d'envoi n'a pas été lancé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:215
+msgid "Initiate the send process, click the \"Start\" button below"
+msgstr "Pour initier le porcessus d'envoi, cliquer sur le boutton \"Demarrer\" ci-dessous."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:225
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:454
+msgid "Status"
+msgstr "Statut"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:231
+msgid "Restart &raquo;"
+msgstr "Relancer &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:233
+msgid "Start &raquo;"
+msgstr "Démarrer &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:238
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:408
+msgid "Edit"
+msgstr "Editer"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:250
+msgid "Warning: since cURL is not installed on your server the send process may take a very long time if you are sending thousands of emails."
+msgstr "Attention: Comme cURL n'est pas installé sur votre serveur le processus d'envoie risque de prendre beaucoup de temps si vous envoyez des milliers de mails."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:321
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:453
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:692
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:722
+msgid "To"
+msgstr "Pour"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:332
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:479
+msgid "Registered users"
+msgstr "Membres enregistrés"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:335
+#, php-format
+msgid "(%s recipients, %s sent, %s <a href=\"%s\">failed</a>)"
+msgstr "(%s destinataires, %s envoyé, %s <a href=\"%s\">échoué</a>)"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:342
+msgid "Sender's Email"
+msgstr "Email de l'expéditeur"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:346
+msgid "Sender's Name"
+msgstr "Nom de l'expéditeur"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:350
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:457
+msgid "Created"
+msgstr "Créé le"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:355
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:508
+msgid "M d, Y g:ia"
+msgstr "d M, Y g:ia"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:357
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:510
+msgid "by"
+msgstr "par"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:362
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:452
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:695
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:724
+msgid "Subject"
+msgstr "Sujet"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:366
+msgid "HTML Version"
+msgstr "Version HTML"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:372
+msgid "Plain Text Version"
+msgstr "Version texte"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:386
+msgid "Attachments"
+msgstr "Pièce jointe"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:405
+msgid "Use As Template"
+msgstr "Utiliser comme modèle"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:414
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:424
+msgid "* Note that the viewed/unopened statistics are estimates, and are intended primarily to be used in making comparisons between your mailings."
+msgstr "* Notez que les statistiques des vues/non ouvert sont estimées, et sont destinées principalement à être utilisées en faisant des comparaisons entre vos mailings."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:425
+msgid "This is because some mail clients render in plain text, or require user consent before images are displayed in mailing."
+msgstr "Car certains clients mail affiche du texte plein, ou requièrent une approbation utilisateur avant que les images soient affichées dans le mail."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:426
+msgid "Therefore your mailing's tracking pixel may not fire for every viewed email, and in most cases the percentage of actual opened emails will be higher."
+msgstr "Par conséquent le suivit de vos mailings peut ne pas se déclencher pour chaque mail lu, et dans la plupart des cas le pourcentage des emails actuellement ouvert sera plus grand."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:436
+msgid "Create New Mailing"
+msgstr "Créer un mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:445
+msgid "No mailings have yet been created."
+msgstr "Aucun mailing n'a encore été créé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:455
+msgid "Opened"
+msgstr "Ouvert"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:456
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:217
+msgid "Click-Thrus"
+msgstr "Cliqué via"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/mailings.php:485
+msgid "Draft"
+msgstr "Brouillon"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:58
+msgid "Please select at least one group"
+msgstr "Veuillez sélectionner au moins un groupe"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:59
+msgid "Are you sure this email is ready to send?"
+msgstr "Etes vous certain que ce mail est prêt à partir ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:60
+msgid "This will only show subscribed registered users, not unregistered subscribers. Use the export feature to see all subscribers. Continue?"
+msgstr "Cela affichera uniquement les souscriptions de membres enregistrés, et pas les souscription \"publiques\". Utilisez la fonction d'export pour voir tous les abonnés. Continuer ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:61
+#, php-format
+msgid "(%s recipients)"
+msgstr "(%s destinataires)"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:72
+msgid "Edit Mailing"
+msgstr "Editer le mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:72
+msgid "Create Mailing"
+msgstr "Créer un mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:87
+msgid "There were some problems with your info: "
+msgstr "Il y à eu des soucis avec vos informations:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:96
+msgid "Please confirm that the body of email is formatted correctly, and resubmit."
+msgstr "Veuillez confirmer que le corps de ce message est correctement formaté, et revalidez."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:104
+msgid "Please notify an administrator to review your mailing and to start the send process."
+msgstr "Veuillez avertir un administrateur pour valider votre mailing et entamer le processus d'envoie."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:106
+#, php-format
+msgid "View the %smailing detail page &raquo;%s"
+msgstr "Voir la %spage des détails du message &raquo;%s"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:118
+msgid "Recipients:"
+msgstr "Destinataires:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:122
+msgid "Export Emails:"
+msgstr "Exporter les Emails:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:123
+msgid "Excel"
+msgstr "Excel"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:124
+msgid "CSV"
+msgstr "CSV"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:128
+#, php-format
+msgid "%sGroups%s"
+msgstr "%sGroupes%s"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:129
+msgid "Registered Users Only"
+msgstr "Membres enregistrés uniquement"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:132
+msgid "Add Groups &raquo;"
+msgstr "Ajouter des groupes &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:171
+msgid "Only send to users with the following attribute enabled:"
+msgstr "N'envoyer qu'aux utilisateur avec les attributs suivants activés:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:173
+msgid "------"
+msgstr "------"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:188
+msgid "Boolean/checkbox user-attributes only.  This will limit this mailing to only registered users."
+msgstr "Booléen/Checkbox attributs utilisateur uniquement. Cela va limiter le mailing aux membres enregistrés uniquement."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:196
+msgid "Sender's Email:"
+msgstr "Email de l'expéditeur:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:200
+msgid "Other"
+msgstr "Autre"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:211
+msgid "Sender's Name (Optional):"
+msgstr "Nom de l'expéditeur (Optionnel):"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:229
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:265
+msgid "Subject:"
+msgstr "Sujet:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:240
+msgid "HTML Version:"
+msgstr "Version HTML:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:248
+msgid "Plain Text Version:"
+msgstr "Version texte:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:273
+msgid "Body:"
+msgstr "Corps:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:291
+msgid "Attachments (Optional):"
+msgstr "Pièce jointe (optionnel):"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:308
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:309
+msgid "Note: You should keep your total attachment size under 2MB."
+msgstr "Note: Vous devez avoir un total de pièces jointes de moins de 2MB."
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:322
+msgid "Preview &raquo;"
+msgstr "Prévisualiser &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:324
+msgid "Send &raquo;"
+msgstr "Envoyer &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:326
+msgid "Save As Pending &raquo;"
+msgstr "Enregistrer comme \"en attente\" &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:332
+msgid "Save As Draft"
+msgstr "Enregistrer comme brouillon"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:337
+msgid "&laquo; Edit"
+msgstr "&laquo; Editer"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:339
+msgid "Rich Text:"
+msgstr "Texte Enrichi:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/single_pages/dashboard/mailing_list/send.php:339
+msgid "On/Off"
+msgstr "On/Off"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:239
+msgid "Image"
+msgstr "Image"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:470
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:529
+msgid "Send process is running"
+msgstr "Le processus d'envoi est en cours"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:551
+msgid "Send process ran into max execution time limit."
+msgstr "Processus d'envoie exécuter dans la limite de temps max d'execution. "
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:626
+msgid "(Unsubscribe disabled when sending to site administrators)"
+msgstr "(Désabonnement désactivé lors de l'envoie aux administrateurs du site)"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:629
+msgid "You may unsubscribe from this mailing list by visiting this link:\r\n"
+msgstr "Vous pouvez vous désinscrire de cette liste de diffusion en cliquant sur ce lien:\r\n"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:630
+#, php-format
+msgid "You may %sunsubscribe%s from this mailing list at any time.\r\n"
+msgstr "Vous pouvez %svous désinscrire%s de cette liste de diffusion à tout moment.\r\n"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:636
+msgid "You may unsubscribe from future mailings from this site by visiting this link:\r\n"
+msgstr "Vous pouvez vous désinscrire des futures diffusions en cliquant sur ce lien:\r\n"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:637
+#, php-format
+msgid "You may %sunsubscribe%s from future mailings from this site at any time.\r\n"
+msgstr "Vous pouvez %svous désinscrire%s des futures diffusions à tout moment.\r\n"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:683
+msgid "Unknown php mail() error.  Please try switching your concrete site to use SMTP mail."
+msgstr "Erreur php mail() inconnue. Veuillez essayer de basculer votre site Concrete5 pour utiliser SMTP mail."
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:687
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr "Une exception Mail est apparue. Impossible d'envoyer le mail:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:691
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:721
+msgid "Template Used"
+msgstr "Modèle utilisé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:693
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:723
+msgid "From"
+msgstr "De"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:696
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:725
+msgid "Body"
+msgstr "Corps du mail"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:717
+msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+msgstr "LES EMAILS SONT ACTIVES. CE MAIL A ETE ENVOYE A mail()"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:719
+msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+msgstr "LES EMAILS SONT DESACTIVES. CE COURRIEL A ETE JOURNALISE MAIS PAS ENVOYE"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:771
+msgid "Send process crashed. Unknown error."
+msgstr "Processus d'envoie abandonné. Erreur inconnue."
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_mailing.php:777
+msgid "Invalid mailing-list mailing status code, in TonyMailingListMailing::updateStatus()"
+msgstr "Invalid mailing-list mailing status code, in TonyMailingListMailing::updateStatus()"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list.php:439
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:134
+msgid "Invalid email address"
+msgstr "Adresse Email invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list.php:447
+msgid "Email already exists"
+msgstr "Email déjà existant"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:58
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:148
+msgid "mailing not found"
+msgstr "mailing non trouvé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:141
+msgid "Invalid mailing or user ids"
+msgstr "Mailing ou ids abonné invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:158
+msgid "unsubscribed user already tracked"
+msgstr "désinscription des utilisateurs déjà suivi"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:161
+msgid "unsubscribed non-registered user already tracked"
+msgstr "désinscription des utilisateurs non enregistrés déjà suivi"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:183
+msgid "user not in mailing"
+msgstr "abonné non inclus dans le mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:195
+msgid "unregistered user not in mailing"
+msgstr "Invité non inclut au mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:204
+msgid "user not found"
+msgstr "Abonné non trouvé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:217
+msgid "Viewed Only"
+msgstr "Vu seulement"
+
+#: /var/www/c551fr/packages/tony_mailing_list/models/tony_mailing_list_stats.php:217
+msgid "Unopened*"
+msgstr "Non ouvert*"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/add.php:13
+msgid "Join Mailing List"
+msgstr "S'abonner à nos listes de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/add.php:14
+msgid "Subscribe to be updated on announcements, news, and info."
+msgstr "Abonnez vous pour être tenu au fait des annonces, nouvelles, et informations du site."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/add.php:15
+msgid "Thanks for subscribing!"
+msgstr "Merci de votre abonnement à notre liste de diffusion !"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:28
+msgid "User Attributes"
+msgstr "Attributs utilisateurs"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:35
+msgid "Title"
+msgstr "Titre"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:38
+msgid "Default"
+msgstr "Défaut"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:39
+msgid "Bold"
+msgstr "Gras"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:40
+msgid "H1"
+msgstr "H1"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:41
+msgid "H2"
+msgstr "H2"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:42
+msgid "H3"
+msgstr "H3"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:43
+msgid "H4"
+msgstr "H4"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:44
+msgid "H5"
+msgstr "H5"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:50
+msgid "Signup Text"
+msgstr "Texte d'inscription"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:56
+msgid "Successful Subscription Message"
+msgstr "Message d'abonnement réussit"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:64
+msgid "Choose Mailing List Group(s)"
+msgstr "Choisissez le(s) groupe(s) de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:105
+msgid "No groups are enabled."
+msgstr "Aucun groupe n'est activé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:109
+#, php-format
+msgid "These are the group(s) the user will enter/exit when subscribing/unsubscribing. Add more through the %sMailing List Settings%s page."
+msgstr "Ce sont les groupes desquels les utilisateurs vont entrer/sortir lors de leur des/abonnement. En ajouter plus dans la page %sMailing List Settings%s."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:113
+msgid "Show mailing list group checkboxes"
+msgstr "Afficher les cases de sélection des groupes"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:121
+msgid "Let Unregistered Users Subscribe"
+msgstr "Autoriser les invités à s'abonner"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:123
+msgid "Yes"
+msgstr "Oui"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:127
+msgid "Require email validation check for unregistered users"
+msgstr "Requérir une validation par mail pour l'abonnement des invités."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:137
+msgid "Do you want to collect any of these attributes from subscribers?"
+msgstr "Désirez vous recueillir un de ces attributs d'abonnés ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/form_setup_html.php:150
+msgid "Make attributes required fields"
+msgstr "En faire un champs d'attribut requis"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:37
+msgid "To unsubscribe from the mailing lists you left unchecked, please check your email inbox."
+msgstr "Veuillez vérifier votre boîte mail afin de vous désinscrire de la liste de diffusion que vous n'avez pas cochée."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:43
+msgid "To confirm your email address, please check your email inbox, and click the link you have been sent"
+msgstr "Afin confirmer votre adresse Email, veuillez vérifier votre boîte de réception et cliquer sur le lien qui vous a été envoyé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:52
+#, php-format
+msgid "Please <a href=\"%s\">login</a> first to subscribe"
+msgstr "Veuillez vous <a href=\"%s\">connecter</a> pour vous inscrire"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:70
+msgid "Email:"
+msgstr "Courriel:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:70
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:111
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:127
+msgid "*"
+msgstr "*"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:123
+msgid "Sign-up &raquo;"
+msgstr "S'abonner &raquo;"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/view.php:127
+msgid "Required Fields"
+msgstr "Champs requis"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:23
+msgid "Allow people to subscribe/unsubscribe from mailing list"
+msgstr "Autorise les internautes à s'inscrire/se désinscrire de la liste"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:27
+msgid "Mailing Subscriptions"
+msgstr "Abonnement au maiiling"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:131
+msgid "Please login to subscribe"
+msgstr "Veuillez vous connecter pour vous abonner"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:137
+msgid "Please complete all required fields."
+msgstr "Veuillez compléter tous les champs requis."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:221
+msgid "Oops, no groups were selected."
+msgstr "Oops, aucun groupe n'a été sélectionné."
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:232
+msgid "Invalid email address set for the global variable MAILING_LIST_SUBSCRIPTIONS_EMAIL: "
+msgstr "Réglage de l'adresse mail pour la variable globale MAILING_LIST_SUBSCRIPTIONS_EMAIL invalide:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:240
+msgid "To subscribe to the groups \""
+msgstr "Pour s'abonner aux groupes \""
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:241
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:260
+msgid "visit the link:"
+msgstr "Visitez le lien:"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:246
+msgid "Subscribe to mailing list"
+msgstr "S'aboner à la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:259
+msgid "To unsubscribe from the groups \""
+msgstr "Pour se désabonner des groupes \""
+
+#: /var/www/c551fr/packages/tony_mailing_list/blocks/tony_mailing_list/controller.php:265
+msgid "Unsubscribe from mailing list"
+msgstr "Se désabonner de la liste de diffusion"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:99
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:324
+msgid "You must agree that you're not using this for spam."
+msgstr "Vous devez confirmer que vous n'utilisez pas ceci pour diffuser du SPAM."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:102
+msgid "Error: Each of your columns must be unique or ignored."
+msgstr "Erreur: Chacune de vos colonnes doit être unique ou ignorée."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:105
+msgid "Please select a group"
+msgstr "Veuillez sélectionner un groupe"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:108
+msgid "Error: File not found. Please try again"
+msgstr "Erreur: Fichier non trouvé, veuillez essayer à nouveau"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:180
+msgid "Error: Your file must be in .csv format."
+msgstr "Erreur: Votre fichier doit être au format .csv"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:320
+msgid "Are you subscribing or unsubscribing this user?"
+msgstr "Etes vous en train d'abonner/désabonner cet utilisateur ?"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:335
+msgid "Invalid mailing list group"
+msgstr "Groupe de liste de diffusion invalidde"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:386
+msgid "Subscriber not found"
+msgstr "Abonné non trouvé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:413
+msgid "F j, Y, g:i a T"
+msgstr "j F, Y, g:i a T"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/subscribers.php:417
+msgid "Groups"
+msgstr "Groupes"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/settings.php:52
+msgid "The max execution time must be larger than the pause time."
+msgstr "Le temps maximum d'exécution doit être supérieur au temps de pause."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/settings.php:56
+msgid "Invalid bounce-back email address"
+msgstr "Adresse email de bounce-back invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/mailings.php:32
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/mailings.php:50
+msgid "A mailing with that id was not found"
+msgstr "Aucun mailing avec cette ID n'a été trouvé"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/mailings.php:97
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:45
+msgid "You don't have permission to edit this mailing. You must either be in the administrators group or be the sender."
+msgstr "Vous n'êtes pas autoriser à éditer ce mailing. Vous devez pour cela être dans le groupe administrateur ou dans celui de l'expéditeur."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:54
+msgid "Sorry, but you can't edit mailings that are no longer pending and are not drafts."
+msgstr "Désolé, mais vous ne pouvez éditer les mailings qui ne sont plus en attente ou encore en brouillons."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:64
+msgid "No preview for this mailing was found"
+msgstr "Aucune prévue trouvée pour ce mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:93
+msgid "You must select at least one group, or select the \"Registered Users\" option"
+msgstr "Vous devez sélectionner au moins un groupe, ou sélectionner l'option \"membres enregistrés\""
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:100
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:225
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:377
+msgid "Invalid Recipient Setting"
+msgstr "Réglage du destinataire invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:112
+msgid "Please specify who this mailing is from"
+msgstr "Veuillez spécifier par qui est envoyé ce mailing"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:115
+msgid "Invalid sender email address"
+msgstr "Adresse email de l'expéditeur invalide"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:133
+msgid "You must include a subject"
+msgstr "Vous devez inclure un sujet"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:138
+msgid "You must include some body text"
+msgstr "Vous devez inclure du texte dans le corps du message"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:142
+msgid "A mailing with same subject and body has already been created!"
+msgstr "Un mailing avec les mêmes sujets et corps a déjà été créé !"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:216
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:369
+msgid "You must select at least one group"
+msgstr "Vous devez sélectionner au moins un groupe"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:222
+msgid "Mailings to all users is currently disabled."
+msgstr "L'envoie à tous les utilisateurs est actuellement désactivé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:232
+msgid "No users found."
+msgstr "Aucun utilisateur n'a été trouvé."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:330
+msgid "User ID"
+msgstr "ID utilisateur"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:330
+msgid "Unregistered User ID"
+msgstr "ID utilisateur non enregistré"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:398
+msgid "Close Window [X]"
+msgstr "Fermer la fenêtre [X]"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:398
+msgid "Changes Saved!"
+msgstr "Changements sauvegardés !"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:401
+msgid "To insert user attributes (first name, last name, etc) into your mailings, type the attribute handle between two percentage signs (shown below) into the body of your mailing. "
+msgstr "Pour insérer un attribut utilisateur (nom, prénom, etc...) dans vos mailings, entrez la clef de l'attribut entre deux sigle de pourcentage (voir ci-dessous) dans le corps de votre message."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:402
+msgid "You can also enter default values to use if there is no value for a particular user. "
+msgstr "Vous pouvez également saisir des valeurs par défaut à utiliser si aucune entrée n'est trouvée pour un utilisateur particulier."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:403
+#, php-format
+msgid "To add new user attributes, visit the %susers section%s of the dashboard."
+msgstr "Pour ajouter un nouvel attribut utilisateur visitez la %sgestion des attributs utilisateurs%s du tableau de bord."
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:430
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:443
+msgid "Save"
+msgstr "Enregistrer"
+
+#: /var/www/c551fr/packages/tony_mailing_list/controllers/dashboard/mailing_list/send.php:444
+msgid "Close"
+msgstr "Fermer"
+

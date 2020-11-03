@@ -1,0 +1,237 @@
+// File Name: _footer.scss
+// Description: global footer styles
+
+/*=======================
+        FOOTER STYLES
+========================*/
+
+.main-footer {
+	background: #626262;
+
+	padding: 80px 0 0;
+
+	&__col {
+		float: left;
+		position: relative;
+		min-height: 1px;
+		padding: 0 15px;
+
+		&.left {
+			width: 41.66666666666667%;
+
+			@include breakpoint(991) {
+				width: 33.33333333333333%;
+
+				.main-footer__innercol {
+					width: 100%;
+
+					&.left {
+						margin-bottom: 30px;
+					}
+				}
+			}
+		}
+
+		&.middle {
+			width: 33.33333333333333%;
+		}
+
+		&.right {
+			width: 25%;
+
+			@include breakpoint(991) {
+				width: 33.33333333333333%;
+			}
+		}
+
+		&.left,
+		&.middle,
+		&.right {
+			@include breakpoint(767) {
+				float: left;
+				width: 100%;
+			}
+		}
+
+		.main-footer__innercol {
+			float: left;
+			width: 50%;
+
+			position: relative;
+			min-height: 1px;
+
+			@include breakpoint(767) {
+				width: 100%;
+			}
+
+   &.left {
+    padding-top: 15vh;
+    padding-right: 35px;
+
+    @include breakpoint(991) {
+     padding-top: 0;
+    }
+   }
+		}
+	}
+
+	&__logo {
+		display: block;
+
+		@include breakpoint(480) {
+			margin-bottom: 20px;
+		}
+
+		img {
+			max-width: 100%;
+
+   @include breakpoint(767) {
+    max-width: 200px;
+   }
+
+			// @include breakpoint(1199) {
+			// 	max-width: 160px;
+			// }
+   //
+			// @include breakpoint(991) {
+			// 	max-width: 130px;
+			// }
+   //
+			// @include breakpoint(480) {
+			// 	max-width: 180px;
+			// }
+		}
+	}
+
+	h4 {
+		color: $white;
+		font-size: 15px;
+		font-family: $robotoMedium;
+
+		margin-bottom: 15px;
+
+		@include breakpoint(1199) {
+			font-size: 14px;
+		}
+
+		a {
+			color: $white;
+		}
+	}
+
+	ul {
+		margin-bottom: 30px;
+
+		li {
+			margin-bottom: 10px;
+
+			a {
+				color: $white;
+				font-size: 15px;
+
+				@include breakpoint(1199) {
+					font-size: 13px;
+				}
+
+				.fa {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
+	.footer_search {
+
+		.footer_search_field {
+			color: $white;
+
+			background: none;
+			box-shadow: 0 0 0;
+			border: 1px solid $white;
+			border-radius: 3px;
+
+			height: 42px;
+		}
+
+		.input-group-btn {
+			right: 25px;
+
+			button {
+				font-size: 25px;
+
+				background: none;
+				padding: 0;
+
+				.fa {
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.copyright {
+		padding: 80px 0 30px;
+
+		@include breakpoint(767) {
+			text-align: center;
+		}
+
+		.copy {
+			color: $white;
+			font-size: 14px;
+			text-align: center;
+
+			margin: 0;
+		}
+	}
+	.ttlogo {
+		max-width: 150px;
+		max-height: 16px;
+	}
+}
+
+/*=======================
+        GO TO TOP
+========================*/
+
+.gotoTop {
+	background-color: $grey;
+	color: $white;
+	font-size: 33px;
+	text-align: center;
+
+  width: 60px;
+	height: 60px;
+
+	position: fixed;
+	bottom: 50px;
+	right: 0;
+	z-index: 100;
+
+	cursor: pointer;
+	display: block;
+
+	margin-right: 0px;
+
+  overflow: hidden;
+	background-color: rgba(48, 22, 84, 0.7);
+
+	visibility: hidden;
+
+  @include opacity(0);
+	@include transition(all .3s ease);
+
+  @include hoverFocus {
+	  background-color: rgba(48, 22, 84, 1);
+  }
+
+  span {
+    color: $white;
+    margin-top: 14px;
+  }
+
+	&.active {
+		opacity: 1;
+		visibility: visible;
+	}
+}
