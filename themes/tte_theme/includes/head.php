@@ -47,8 +47,10 @@ $sharingImg = ($bannerImages ? BASE_URL . $bannerImg : $sharingFallback);
 
 <?php $this->addHeaderItem($htmlHelper->css($CDN_URL . $THEME_URL . 'css/all.css')); ?>
 <?php $this->addHeaderItem($htmlHelper->css($CDN_URL . $THEME_URL . 'css/style.css')); ?>
+<?php //$this->addHeaderItem($htmlHelper->css($CDN_URL . $THEME_URL . 'css/elevator.css')); ?>
 
 <?php $this->addHeaderItem('<link type="text/css" rel="stylesheet" media="print" href="' . $CDN_URL . $THEME_URL . 'css/print.css">'); ?>
+<?php //$this->addHeaderItem($htmlHelper->css('css/elevator.css')); ?>
 
 <?php
 print $this->controller->outputHeaderItems();
@@ -103,5 +105,3 @@ echo (is_object($c)) ? $c->getCollectionAttributeValue('header_extra_content') :
   gtag('config', 'UA-137340655-1');
 
 </script>
-
-

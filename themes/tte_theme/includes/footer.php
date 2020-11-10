@@ -6,7 +6,12 @@ defined('C5_EXECUTE') or die(_('Access Denied.'));
 $page = $c;
 $CDN_URL = 'https://static-tte.s3-accelerate.dualstack.amazonaws.com';
 $THEME_URL = '/themes/tte_theme/';
+
+$htmlHelper = Loader::helper('html');
+// $this->addHeaderItem($htmlHelper->css($CDN_URL . $THEME_URL . 'css/elevator.css'));
+$this->addFooterItem($htmlHelper->css('css/elevator.css'));
 ?>
+
 
 <?php if( !$page->getAttribute("hide_bottom_links") ){ ?>
   <!-- 3 blocks for pages -->
@@ -19,6 +24,7 @@ $THEME_URL = '/themes/tte_theme/';
              <li><?php $a = new GlobalArea('Botlink A'); $a->display($c); ?></li>
              <li><?php $a = new GlobalArea('Botlink B'); $a->display($c); ?></li>
              <li><?php $a = new GlobalArea('Botlink C'); $a->display($c); ?></li>
+             <li><?php $a = new GlobalArea('Botlink D'); $a->display($c); ?></li>
            </ul><!-- /.link-blod -->
          </div><!-- /.row -->
        </div><!-- /.container -->

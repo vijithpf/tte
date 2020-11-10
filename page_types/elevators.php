@@ -40,15 +40,21 @@ $page = $c;
 
         <?php $this->inc('includes/usp.php'); ?>
 
-        <section class="prequalification-documents">
+        <section class="prequalification-documents callback-form-wrap">
           <div class="container">
             <div class="prequalification-documents-wrap">
               <div class="row">
-                <div class="col-sm-8 left">
-                  <?php $a = new Area('Corporate Profile Title'); $a->display($c); ?>
+                <div class="col-sm-5 left">
+                  <?php
+                  $stack = Stack::getByName('Elevators Callback Form Title');
+                  $stack->display();
+                  ?>
                 </div><!-- /.col -->
-                <div class="col-sm-4 right">
-                  <?php $a = new Area('Callback Form'); $a->display($c); ?>
+                <div class="col-sm-7 right">
+                  <?php
+                  $stack = Stack::getByName('Elevators Callback Form');
+                  $stack->display();
+                  ?>
                 </div><!-- /.col -->
               </div><!-- /.row -->
             </div><!-- /.prequalification-documents-wrap -->
@@ -57,6 +63,67 @@ $page = $c;
 
       <?php } else { ?>
 
+        <?php if($page->getAttribute('elevators_page_type') == 'escalators_moving_walk'): ?>
+        <section class="escalators-moving-walk-grid-wrap">
+          <div class="container">
+          
+            <div class="custom-grid-wrap">
+              <div class="item-wrap row">
+                <div class="col-md-4">
+                  <div class="img-wrap">
+                    <?php $a = new Area('Project Image (354*672)'); $a->display($c); ?>
+                  </div>
+                </div>
+                <div class="col-md-8 space-left">
+                  <div class="content-wrap">
+                    <?php $a = new Area('Project A Title 1'); $a->display($c); ?>
+                  </div>
+                  <div class="row item-sub-wrap">
+                    <div class="col-md-6">
+                      <div class="img-wrap">
+                        <?php $a = new Area('Project Image (355*490)'); $a->display($c); ?>
+                      </div>
+                    </div>
+                    <div class="col-md-6 space-left">
+                      <div class="content-wrap">
+                        <?php $a = new Area('Project A Title 2'); $a->display($c); ?>
+                        <a href="#" class="btn btn-underline btn-clr-purple enquire-btn-modal" data-product="Home Elevator" data-target="#productModal" datatype="url">Enquire Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-wrap second-grid row">
+                <div class="col-md-8">
+                  <div class="img-wrap">
+                    <?php $a = new Area('Project Image (714*660)'); $a->display($c); ?>
+                  </div>
+                </div>
+                <div class="col-md-4 space-left">
+                  <div class="img-wrap">
+                    <?php $a = new Area('Project Image (390*370)'); $a->display($c); ?>
+                  </div>
+                  <div class="content-wrap">
+                    <?php $a = new Area('Project B Title 1'); $a->display($c); ?>
+                    <a href="#" class="btn btn-underline btn-clr-purple enquire-btn-modal" data-product="Home Elevator" data-target="#productModal" datatype="url">Enquire Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <?php elseif($page->getAttribute('elevators_page_type') == 'maintenance_modernisation'): ?>
+          <section class="escalators-moving-walk-grid-wrap">
+          <div class="container">
+            <div class="col-grid-wrap">
+
+              <?php $a = new Area('Content Block'); $a->display($c); ?>
+
+            </div>
+          </div>
+        </section>
+        <?php else: ?>
         <section class="all-brands">
           <div class="container">
             <div class="all-brands__row">
@@ -66,32 +133,44 @@ $page = $c;
             $stack->display();
             $stack = Stack::getByName('Elevators Categories List');
             $stack->display();
-            // $stack = Stack::getByName('Products Page List');
-            // $stack->display();
-            // $stack = Stack::getByName('Categories Page List');
-            // $stack->display();
-            // die();
             ?>
-
-            <div id="productModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-                    <div class="modal-body make-enquery-wrap">
-                        <h2>Product Enquiry</h2>
-                        <?php $stack = Stack::getByName('Product Enquiry Form');
-                        $stack->display(); ?>
-                    </div>
-                    <button class="fa fa-times close-modal close-enquiry-modal" data-dismiss="modal"></button>
-                </div>
-            </div>
 
             </div>
           </div>
         </section>
+        <?php endif; ?>
 
-        <?php
-        $stack = Stack::getByName('Elevators Callback');
-        $stack->display();
-        ?>
+        <div id="productModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-body make-enquery-wrap">
+              <h2>Product Enquiry</h2>
+              <?php $stack = Stack::getByName('Product Enquiry Form');
+              $stack->display(); ?>
+            </div>
+            <button class="fa fa-times close-modal close-enquiry-modal" data-dismiss="modal"></button>
+          </div>
+        </div>
+
+        <section class="prequalification-documents callback-form-wrap">
+          <div class="container">
+            <div class="prequalification-documents-wrap">
+              <div class="row">
+                <div class="col-sm-5 left">
+                  <?php
+                  $stack = Stack::getByName('Elevators Callback Form Title');
+                  $stack->display();
+                  ?>
+                </div><!-- /.col -->
+                <div class="col-sm-7 right">
+                  <?php
+                  $stack = Stack::getByName('Elevators Callback Form');
+                  $stack->display();
+                  ?>
+                </div><!-- /.col -->
+              </div><!-- /.row -->
+            </div><!-- /.prequalification-documents-wrap -->
+          </div><!-- /.container -->
+        </section><!-- /.prequalification-documents -->
 
     <?php } ?>
 

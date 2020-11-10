@@ -1,10 +1,10 @@
 <?php  defined('C5_EXECUTE') or die("Access Denied.");
 
-class CallbackFormBlockController extends BlockController {
+class FlippedContentBlockBlockController extends BlockController {
 	
-	protected $btName = 'Request Callback';
+	protected $btName = 'Flipped Content Block';
 	protected $btDescription = '';
-	protected $btTable = 'btDCCallbackForm';
+	protected $btTable = 'btDCFlippedContentBlock';
 	
 	protected $btInterfaceWidth = "700";
 	protected $btInterfaceHeight = "450";
@@ -16,24 +16,49 @@ class CallbackFormBlockController extends BlockController {
 	protected $btCacheBlockOutputLifetime = CACHE_LIFETIME;
 	
 	public function getSearchableContent() {
-		return $this->field_1_wysiwyg_content;
+		return $this->field_2_wysiwyg_content;
 	}
 
 	public function view() {
-		$this->set('field_1_wysiwyg_content', $this->translateFrom($this->field_1_wysiwyg_content));
+		$this->set('field_1_image', (empty($this->field_1_image_fID) ? null : $this->get_image_object($this->field_1_image_fID, 0, 0, false)));
+		$this->set('field_2_wysiwyg_content', $this->translateFrom($this->field_2_wysiwyg_content));
 	}
 
 
 	public function edit() {
-		$this->set('field_1_wysiwyg_content', $this->translateFromEditMode($this->field_1_wysiwyg_content));
+		$this->set('field_1_image', (empty($this->field_1_image_fID) ? null : File::getByID($this->field_1_image_fID)));
+		$this->set('field_2_wysiwyg_content', $this->translateFromEditMode($this->field_2_wysiwyg_content));
 	}
 
 	public function save($args) {
-		$args['field_1_wysiwyg_content'] = $this->translateTo($args['field_1_wysiwyg_content']);
+		$args['field_1_image_fID'] = empty($args['field_1_image_fID']) ? 0 : $args['field_1_image_fID'];
+		$args['field_2_wysiwyg_content'] = $this->translateTo($args['field_2_wysiwyg_content']);
 		parent::save($args);
 	}
 
-
+	//Helper function for image fields
+	private function get_image_object($fID, $width = 0, $height = 0, $crop = false) {
+		if (empty($fID)) {
+			$image = null;
+		} else if (empty($width) && empty($height)) {
+			//Show image at full size (do not generate a thumbnail)
+			$file = File::getByID($fID);
+			$image = new stdClass;
+			$image->src = $file->getRelativePath();
+			$image->width = $file->getAttribute('width');
+			$image->height = $file->getAttribute('height');
+		} else {
+			//Generate a thumbnail
+			$width = empty($width) ? 9999 : $width;
+			$height = empty($height) ? 9999 : $height;
+			$file = File::getByID($fID);
+			$ih = Loader::helper('image');
+			$image = $ih->getThumbnail($file, $width, $height, $crop);
+		}
+	
+		return $image;
+	}
+	
 
 //WYSIWYG HELPER FUNCTIONS (COPIED FROM "CONTENT" BLOCK):
 	function translateFromEditMode($text) {
@@ -48,13 +73,13 @@ class CallbackFormBlockController extends BlockController {
 
 		$text = preg_replace_callback(
 			'/{CCM:FID_([0-9]+)}/i',
-			array('CallbackFormBlockController', 'replaceFileIDInEditMode'),
+			array('FlippedContentBlockBlockController', 'replaceFileIDInEditMode'),
 			$text);
 
 
 		$text = preg_replace_callback(
 			'/{CCM:FID_DL_([0-9]+)}/i',
-			array('CallbackFormBlockController', 'replaceDownloadFileIDInEditMode'),
+			array('FlippedContentBlockBlockController', 'replaceDownloadFileIDInEditMode'),
 			$text);
 
 
@@ -82,25 +107,25 @@ class CallbackFormBlockController extends BlockController {
 
 		$text = preg_replace_callback(
 			'/{CCM:CID_([0-9]+)}/i',
-			array('CallbackFormBlockController', 'replaceCollectionID'),
+			array('FlippedContentBlockBlockController', 'replaceCollectionID'),
 			$text);
 
 		$text = preg_replace_callback(
 			'/<img [^>]*src\s*=\s*"{CCM:FID_([0-9]+)}"[^>]*>/i',
-			array('CallbackFormBlockController', 'replaceImageID'),
+			array('FlippedContentBlockBlockController', 'replaceImageID'),
 			$text);
 
 		// now we add in support for the files that we view inline
 		$text = preg_replace_callback(
 			'/{CCM:FID_([0-9]+)}/i',
-			array('CallbackFormBlockController', 'replaceFileID'),
+			array('FlippedContentBlockBlockController', 'replaceFileID'),
 			$text);
 
 		// now files we download
 
 		$text = preg_replace_callback(
 			'/{CCM:FID_DL_([0-9]+)}/i',
-			array('CallbackFormBlockController', 'replaceDownloadFileID'),
+			array('FlippedContentBlockBlockController', 'replaceDownloadFileID'),
 			$text);
 
 		return $text;
