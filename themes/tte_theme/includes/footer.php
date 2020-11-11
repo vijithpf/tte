@@ -20,12 +20,13 @@ $this->addFooterItem($htmlHelper->css('css/elevator.css'));
       <div class="links-hoster">
        <div class="container">
          <div class="row">
-           <ul class="link-blod list-inline">
+
+           <ul class="link-blod list-inline three-cols">
              <li><?php $a = new GlobalArea('Botlink A'); $a->display($c); ?></li>
              <li><?php $a = new GlobalArea('Botlink B'); $a->display($c); ?></li>
              <li><?php $a = new GlobalArea('Botlink C'); $a->display($c); ?></li>
-             <li><?php $a = new GlobalArea('Botlink D'); $a->display($c); ?></li>
-           </ul><!-- /.link-blod -->
+           </ul>
+           
          </div><!-- /.row -->
        </div><!-- /.container -->
      </div><!-- /.links-hoster -->
