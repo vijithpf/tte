@@ -100,6 +100,9 @@
   bottom: 20px;
   right: 0px;
 }
+.callback-form-wrap .formidable_message p {
+  margin-bottom: 35px;
+}
 /* Callback from End*/
 
 
