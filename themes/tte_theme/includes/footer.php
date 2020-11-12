@@ -73,7 +73,7 @@ $this->addFooterItem($htmlHelper->css('css/elevator.css'));
         <?php $a = new GlobalArea('Footer 4'); $a->display($c); ?>
 
         <ul>
-         <li><a href="https://www.linkedin.com/company/1204071/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+         <li><a href="https://www.linkedin.com/company/technical-trading-est/?viewAsMember=true" target="_blank"><span class="fa fa-linkedin"></span></a></li>
         </ul>
 
         <?php $a = new GlobalArea('Newsletter Title'); $a->display($c); ?>
